@@ -1,0 +1,3041 @@
+{
+  "generated_at": "2026-09-09T10:05:12.004602+00:00",
+  "cves": [
+    {
+      "id": "CVE-2026-75650",
+      "published": "2026-09-07T21:17:30.863",
+      "lastModified": "2026-09-09T05:18:07.237",
+      "vulnStatus": "Analyzed",
+      "description": "Adobe Commerce is affected by an Improper Neutralization of Special Elements Used in a Template Engine vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-1336",
+          "name": "CWE-1336"
+        }
+      ],
+      "vendors": [
+        "Adobe Adobe Commerce",
+        "Adobe Adobe Commerce B2B",
+        "Adobe Magento Open Source"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/magento/apsb26-146.html",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-75650"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-08",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-86218",
+      "published": "2026-09-06T03:17:17.373",
+      "lastModified": "2026-09-09T05:18:19.490",
+      "vulnStatus": "Analyzed",
+      "description": "N-central is vulnerable to a pre-auth remote code execution This issue affects N-central: before 2026.3.1.14.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-96",
+          "name": "CWE-96"
+        }
+      ],
+      "vendors": [
+        "N-able N-central"
+      ],
+      "references": [
+        "https://me.n-able.com/s/security-advisory/aArVy0000002Ld3KAE/cve202686218-preauthentication-remote-code-execution",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-86218"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-08",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-83548",
+      "published": "2026-09-01T22:17:13.170",
+      "lastModified": "2026-09-03T13:06:16.053",
+      "vulnStatus": "Analyzed",
+      "description": "A Pre-authentication SSRF vulnerability exists in the SMA1000 Appliance Work Place interface due to an unintended alternate access path. A remote unauthenticated attacker could potentially exploit this vulnerability to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-441",
+          "name": "CWE-441"
+        },
+        {
+          "id": "CWE-918",
+          "name": "Server-Side Request Forgery (SSRF)"
+        }
+      ],
+      "vendors": [
+        "SonicWall SMA1000"
+      ],
+      "references": [
+        "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-83548"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-02",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-85880",
+      "published": "2026-09-08T18:21:14.087",
+      "lastModified": "2026-09-09T05:18:19.193",
+      "vulnStatus": "Analyzed",
+      "description": "Heap-based buffer overflow in Windows ALPC allows an authorized attacker to elevate privileges locally.",
+      "cvss": {
+        "score": 7.8,
+        "version": "3.1",
+        "severity": "HIGH"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-908",
+          "name": "CWE-908"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows Server 2012"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85880",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-85880"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-08",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-81963",
+      "published": "2026-09-08T18:21:00.090",
+      "lastModified": "2026-09-09T05:18:17.173",
+      "vulnStatus": "Analyzed",
+      "description": "Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.",
+      "cvss": {
+        "score": 7.8,
+        "version": "3.1",
+        "severity": "HIGH"
+      },
+      "cwes": [
+        {
+          "id": "CWE-59",
+          "name": "Link Following"
+        },
+        {
+          "id": "CWE-284",
+          "name": "Improper Access Control"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 11 version 23H2",
+        "Microsoft Windows 11 Version 23H2",
+        "Microsoft Windows 11 Version 24H2",
+        "Microsoft Windows 11 Version 25H2",
+        "Microsoft Windows 11 version 26H1"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81963",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-81963"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-08",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-85046",
+      "published": "2026-09-03T20:17:24.210",
+      "lastModified": "2026-09-08T14:55:04.093",
+      "vulnStatus": "Analyzed",
+      "description": "Type confusion in V8 in Google Chrome prior to 152.0.7977.82 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "cvss": {
+        "score": 8.8,
+        "version": "3.1",
+        "severity": "HIGH"
+      },
+      "cwes": [
+        {
+          "id": "CWE-843",
+          "name": "Type Confusion"
+        }
+      ],
+      "vendors": [
+        "Google Chrome"
+      ],
+      "references": [
+        "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html",
+        "https://issues.chromium.org/issues/542403045",
+        "https://github.com/Serotav/Writeups/blob/77556c57999805fa7815a114da51d91cf24fbea9/v8/When_Sorting_Leads_To_Confusion.md",
+        "https://github.com/v8/v8/commit/e0562d87ad9c17042b581582c99237d798572e67"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-04",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-83549",
+      "published": "2026-09-01T22:17:13.290",
+      "lastModified": "2026-09-03T13:06:16.230",
+      "vulnStatus": "Analyzed",
+      "description": "Post-authentication Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability has been identified in the SMA1000 Appliance Management Console (AMC) which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
+      "cvss": {
+        "score": 7.8,
+        "version": "3.1",
+        "severity": "HIGH"
+      },
+      "cwes": [
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "SonicWall SMA1000"
+      ],
+      "references": [
+        "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-83549"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-09-02",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      }
+    },
+    {
+      "id": "CVE-2026-16272",
+      "published": "2026-09-09T09:17:10.720",
+      "lastModified": "2026-09-09T09:17:10.720",
+      "vulnStatus": "Received",
+      "description": "Use of less trusted source vulnerability in PayTR Payment and Electronic Money Institution Inc. PayTR Virtual Pos iFrame API (v9x) WHMCS Module allows Exploitation of Trusted Identifiers. This issue affects PayTR Virtual Pos iFrame API (v9x) WHMCS Module: from v9.0.0 before v9.0.3.",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-348",
+          "name": "CWE-348"
+        }
+      ],
+      "vendors": [
+        "PayTR Payment and Electronic Money Institution Inc. PayTR Virtual Pos iFrame API (v9x) WHMCS Module"
+      ],
+      "references": [
+        "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-1034"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-53939",
+      "published": "2026-09-09T00:17:31.700",
+      "lastModified": "2026-09-09T00:17:31.700",
+      "vulnStatus": "Received",
+      "description": "OpenIDC/cjose is a C library implementing the Javascript Object Signing and Encryption (JOSE). In versions 0.6.1 through 0.6.2.5, when cjose encrypts a JWE using an AES-CBC-HMAC content-encryption algorithm (`A128CBC-HS256`, `A192CBC-HS384`, or `A256CBC-HS512`) together with any key-management algorithm that generates a fresh content-encryption key (CEK), the CEK is all zero bytes instead of being randomly generated. The resulting JWE is therefore encrypted and authenticated under a fixed, publi",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-321",
+          "name": "CWE-321"
+        },
+        {
+          "id": "CWE-330",
+          "name": "Use of Insufficiently Random Values"
+        }
+      ],
+      "vendors": [
+        "OpenIDC cjose"
+      ],
+      "references": [
+        "https://github.com/OpenIDC/cjose/commit/2a6e5bd969fa20059fb00913fb9f57d77ea6a4d9",
+        "https://github.com/OpenIDC/cjose/releases/tag/v0.6.2.6",
+        "https://github.com/OpenIDC/cjose/security/advisories/GHSA-f6wf-pqg3-6wqq"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-53581",
+      "published": "2026-09-08T23:17:24.550",
+      "lastModified": "2026-09-08T23:17:24.550",
+      "vulnStatus": "Received",
+      "description": "OPNsense is a FreeBSD based firewall and routing platform. Prior to version 26.1.9 of opnsense/core and version 26.4_20 of BE/opnsense/core, a path traversal vulnerability in the NTP configuration module allows an attacker to overwrite arbitrary files on the system as the root user. By manipulating the GPS or PPS serial port parameter, an attacker with access to the NTP configuration can escape the intended directory and force the system to write user-controlled data to any file on the filesyste",
+      "cvss": {
+        "score": 9.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-22",
+          "name": "Path Traversal"
+        },
+        {
+          "id": "CWE-73",
+          "name": "CWE-73"
+        }
+      ],
+      "vendors": [
+        "opnsense core"
+      ],
+      "references": [
+        "https://github.com/opnsense/core/security/advisories/GHSA-872g-g543-j37m"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-85982",
+      "published": "2026-09-08T21:18:47.293",
+      "lastModified": "2026-09-08T21:18:47.293",
+      "vulnStatus": "Received",
+      "description": "The Auth0 AD/LDAP Connector is vulnerable to stored Cross-Site Scripting (XSS) issues due to improper HTML encoding of data in search results and updater log content displayed in the admin panel. An authenticated user with privileges to modify directory attributes, or a low-privileged local user on the host where the connector is installed, could insert script content. This script content could then execute in an administrator's browser when they view the affected search results or update logs.",
+      "cvss": {
+        "score": 9.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-79",
+          "name": "Cross-Site Scripting (XSS)"
+        }
+      ],
+      "vendors": [
+        "Auth0 Auth0 AD/LDAP Connector"
+      ],
+      "references": [
+        "https://trust.okta.com/security-advisories/stored-cross-site-scripting-xss-in-auth0-ad-ldap-connector-cve-2026-85982"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-84869",
+      "published": "2026-09-08T20:18:51.147",
+      "lastModified": "2026-09-08T20:18:51.147",
+      "vulnStatus": "Received",
+      "description": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-269",
+          "name": "Improper Privilege Management"
+        },
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "ConnectWise ScreenConnect"
+      ],
+      "references": [
+        "https://github.com/ConnectWise-Advisories/Disclosures/tree/main/CVE-2026-84869",
+        "https://www.connectwise.com/company/trust/advisories",
+        "https://www.connectwise.com/company/trust/security-bulletins/2026-09-08-screenconnect-bulletin"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-75746",
+      "published": "2026-09-08T20:18:22.120",
+      "lastModified": "2026-09-09T05:18:07.477",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "ColdFusion is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-89",
+          "name": "SQL Injection"
+        }
+      ],
+      "vendors": [
+        "Adobe ColdFusion 2025",
+        "Adobe ColdFusion 2023"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/coldfusion/apsb26-119.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-48273",
+      "published": "2026-09-08T20:17:33.560",
+      "lastModified": "2026-09-08T21:13:32.293",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "ColdFusion is affected by an Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-95",
+          "name": "CWE-95"
+        }
+      ],
+      "vendors": [
+        "Adobe ColdFusion 2025",
+        "Adobe ColdFusion 2023"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/coldfusion/apsb26-119.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-19232",
+      "published": "2026-09-08T20:17:28.940",
+      "lastModified": "2026-09-08T21:13:32.293",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. A low-privileged attacker could exploit this vulnerability to gain elevated access or control over the victim's account or session. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-863",
+          "name": "Incorrect Authorization"
+        }
+      ],
+      "vendors": [
+        "Adobe Adobe Experience Manager as a Cloud Service",
+        "Adobe Adobe Experience Manager 6.5 LTS",
+        "Adobe Adobe Experience Manager 6.5"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/experience-manager/apsb26-98.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-82004",
+      "published": "2026-09-08T19:19:59.743",
+      "lastModified": "2026-09-08T19:21:26.860",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "Adobe Adobe Campaign Classic"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/campaign/apsb26-142.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-76201",
+      "published": "2026-09-08T19:19:40.947",
+      "lastModified": "2026-09-09T05:18:08.793",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the vulnerable field, potentially gaining elevated access or control over the victim's account or session. Scope is changed.",
+      "cvss": {
+        "score": 9.3,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-79",
+          "name": "Cross-Site Scripting (XSS)"
+        }
+      ],
+      "vendors": [
+        "Adobe Adobe Commerce",
+        "Adobe Adobe Commerce B2B",
+        "Adobe Magento Open Source"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/magento/apsb26-138.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-76200",
+      "published": "2026-09-08T19:19:40.813",
+      "lastModified": "2026-09-09T05:18:08.673",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Adobe Commerce is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containing the vulnerable field, potentially gaining elevated access or control over the victim's account or session. Scope is changed.",
+      "cvss": {
+        "score": 9.3,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-79",
+          "name": "Cross-Site Scripting (XSS)"
+        }
+      ],
+      "vendors": [
+        "Adobe Adobe Commerce",
+        "Adobe Adobe Commerce B2B",
+        "Adobe Magento Open Source"
+      ],
+      "references": [
+        "https://helpx.adobe.com/security/products/magento/apsb26-138.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-66302",
+      "published": "2026-09-08T19:18:07.690",
+      "lastModified": "2026-09-09T05:17:27.290",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "External control of file name or path in Skype for Business allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-73",
+          "name": "CWE-73"
+        }
+      ],
+      "vendors": [
+        "Microsoft Skype for Business Server 2015 CU13",
+        "Microsoft Skype for Business Server 2019 CU8",
+        "Microsoft Skype for Business Server Subscription Edition CU1"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-66302"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-58822",
+      "published": "2026-09-08T19:18:02.780",
+      "lastModified": "2026-09-08T21:18:22.417",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "In multiple functions of ftsmooth.c, there is a possible memory safety issue due to improper casting. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-704",
+          "name": "CWE-704"
+        }
+      ],
+      "vendors": [
+        "Google Android"
+      ],
+      "references": [
+        "https://source.android.com/docs/security/bulletin/2026/2026-09-01"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-49921",
+      "published": "2026-09-08T19:17:59.193",
+      "lastModified": "2026-09-08T20:17:33.803",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "In multiple locations, there is a possible memory safety issue due to a heap buffer overflow. This could lead to remote code execution with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Google Android"
+      ],
+      "references": [
+        "https://source.android.com/docs/security/bulletin/2026/2026-09-01"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-83941",
+      "published": "2026-09-08T18:21:04.853",
+      "lastModified": "2026-09-08T18:39:13.460",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Missing authorization in Entra ID allows an authorized attacker to elevate privileges over a network.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Microsoft Microsoft Entra"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83941"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-81376",
+      "published": "2026-09-08T18:20:53.813",
+      "lastModified": "2026-09-09T05:18:15.280",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Incomplete comparison with missing factors in Visual Studio Code allows an unauthorized attacker to bypass a security feature over a network.",
+      "cvss": {
+        "score": 9.6,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-693",
+          "name": "CWE-693"
+        },
+        {
+          "id": "CWE-1023",
+          "name": "CWE-1023"
+        }
+      ],
+      "vendors": [
+        "Microsoft Visual Studio Code"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-81376"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-78510",
+      "published": "2026-09-08T18:20:46.200",
+      "lastModified": "2026-09-09T04:20:04.377",
+      "vulnStatus": "Analyzed",
+      "description": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Microsoft 365 Apps for Enterprise",
+        "Microsoft Microsoft Office 2016",
+        "Microsoft Microsoft Office 2019",
+        "Microsoft Microsoft Office 365 for Mac",
+        "Microsoft Microsoft Office LTSC 2021"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78510"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-78509",
+      "published": "2026-09-08T18:20:46.070",
+      "lastModified": "2026-09-09T04:20:03.793",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Microsoft 365 Apps for Enterprise",
+        "Microsoft Microsoft Office 2019",
+        "Microsoft Microsoft Office 365 for Mac",
+        "Microsoft Microsoft Office LTSC 2021",
+        "Microsoft Microsoft Office LTSC 2024"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78509"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-78445",
+      "published": "2026-09-08T18:20:42.263",
+      "lastModified": "2026-09-09T04:20:00.277",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Use after free in Windows Services for NFS ONCRPC XDR Driver allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2",
+        "Microsoft Windows Server 2012 R2 (Server Core installation)",
+        "Microsoft Windows Server 2016"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78445"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-77493",
+      "published": "2026-09-08T18:20:35.187",
+      "lastModified": "2026-09-09T04:19:56.223",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Double free in Microsoft Graphics Component allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-415",
+          "name": "CWE-415"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77493"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-73025",
+      "published": "2026-09-08T18:20:32.490",
+      "lastModified": "2026-09-09T04:19:55.180",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Weak authentication in Windows iSCSI allows an unauthorized attacker to bypass a security feature over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-1390",
+          "name": "CWE-1390"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73025"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-73010",
+      "published": "2026-09-08T18:20:29.987",
+      "lastModified": "2026-09-08T18:40:14.483",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows Failover Cluster allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows Server 2019",
+        "Microsoft Windows Server 2019 (Server Core installation)",
+        "Microsoft Windows Server 2022",
+        "Microsoft Windows Server 2025"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73010"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-73009",
+      "published": "2026-09-08T18:20:29.810",
+      "lastModified": "2026-09-09T04:19:53.020",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows Secure Socket Tunneling Protocol (SSTP) allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73009"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-72983",
+      "published": "2026-09-08T18:20:25.073",
+      "lastModified": "2026-09-09T04:19:51.723",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows Internet Connection Sharing (ICS) allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72983"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-72982",
+      "published": "2026-09-08T18:20:24.863",
+      "lastModified": "2026-09-09T04:19:51.070",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Stack-based buffer overflow in Windows Netlogon allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-121",
+          "name": "CWE-121"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72982"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-72979",
+      "published": "2026-09-08T18:20:24.310",
+      "lastModified": "2026-09-08T18:40:14.483",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72979"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-70296",
+      "published": "2026-09-08T18:20:04.910",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Out-of-bounds write in Windows Imaging Component allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-787",
+          "name": "Out-of-Bounds Write"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70296"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69910",
+      "published": "2026-09-08T18:20:02.250",
+      "lastModified": "2026-09-09T05:17:59.643",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Stack-based buffer overflow in Windows Hyper-V allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-121",
+          "name": "CWE-121"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69910"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69854",
+      "published": "2026-09-08T18:19:56.910",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Improper authentication in Spring Cloud Azure allows an unauthorized attacker to elevate privileges over a network.",
+      "cvss": {
+        "score": 9.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-287",
+          "name": "Improper Authentication"
+        }
+      ],
+      "vendors": [
+        "Microsoft Spring Cloud Azure"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69854"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69845",
+      "published": "2026-09-08T18:19:56.003",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-20",
+          "name": "Improper Input Validation"
+        },
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69845"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69829",
+      "published": "2026-09-08T18:19:54.707",
+      "lastModified": "2026-09-09T04:19:30.720",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69829"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69824",
+      "published": "2026-09-08T18:19:54.190",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Integer underflow (wrap or wraparound) in Microsoft Standard XPS allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-191",
+          "name": "CWE-191"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69824"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69819",
+      "published": "2026-09-08T18:19:53.570",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-787",
+          "name": "Out-of-Bounds Write"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69819"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69769",
+      "published": "2026-09-08T18:19:48.147",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows HTTP Print Provider allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69769"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69768",
+      "published": "2026-09-08T18:19:47.970",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows RNDIS allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69768"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69730",
+      "published": "2026-09-08T18:19:45.140",
+      "lastModified": "2026-09-08T18:39:51.493",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows DNS allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69730"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69715",
+      "published": "2026-09-08T18:19:43.520",
+      "lastModified": "2026-09-08T18:39:34.660",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Out-of-bounds read in Windows Direct Show allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-125",
+          "name": "Out-of-Bounds Read"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69715"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69641",
+      "published": "2026-09-08T18:19:36.313",
+      "lastModified": "2026-09-09T04:19:11.447",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Missing authorization in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network.",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Microsoft Microsoft Exchange Server 2016 Cumulative Update 23",
+        "Microsoft Microsoft Exchange Server 2019 Cumulative Update 14",
+        "Microsoft Microsoft Exchange Server 2019 Cumulative Update 15",
+        "Microsoft Microsoft Exchange Server Subscription Edition RTM"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69641"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69595",
+      "published": "2026-09-08T18:19:30.093",
+      "lastModified": "2026-09-09T04:19:05.240",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows Services for NFS ONCRPC XDR Driver allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows Server 2012",
+        "Microsoft Windows Server 2012 (Server Core installation)",
+        "Microsoft Windows Server 2012 R2",
+        "Microsoft Windows Server 2012 R2 (Server Core installation)",
+        "Microsoft Windows Server 2016"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69595"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69590",
+      "published": "2026-09-08T18:19:29.310",
+      "lastModified": "2026-09-09T04:19:03.253",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim's machine",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69590"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69586",
+      "published": "2026-09-08T18:19:28.670",
+      "lastModified": "2026-09-08T18:39:34.660",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Integer overflow or wraparound in Microsoft Windows PDF allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-190",
+          "name": "Integer Overflow / Wraparound"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69586"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69579",
+      "published": "2026-09-08T18:19:27.440",
+      "lastModified": "2026-09-08T18:39:34.660",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Use after free in Windows Message Queuing allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69579"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69525",
+      "published": "2026-09-08T18:19:20.030",
+      "lastModified": "2026-09-09T05:17:46.247",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-416",
+          "name": "Use After Free"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69525"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69496",
+      "published": "2026-09-08T18:19:16.260",
+      "lastModified": "2026-09-09T05:17:44.063",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows Compressed Folder allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69496"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69493",
+      "published": "2026-09-08T18:19:15.720",
+      "lastModified": "2026-09-09T04:18:51.457",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Out-of-bounds read in Windows Event Logging Service allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-125",
+          "name": "Out-of-Bounds Read"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69493"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69491",
+      "published": "2026-09-08T18:19:15.357",
+      "lastModified": "2026-09-09T04:18:50.930",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69491"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69463",
+      "published": "2026-09-08T18:19:11.387",
+      "lastModified": "2026-09-09T04:18:44.917",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows NTFS allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69463"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69431",
+      "published": "2026-09-08T18:19:06.903",
+      "lastModified": "2026-09-08T19:22:18.470",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Telnet Client allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69431"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69408",
+      "published": "2026-09-08T18:19:03.540",
+      "lastModified": "2026-09-09T05:17:40.113",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Integer overflow or wraparound in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-190",
+          "name": "Integer Overflow / Wraparound"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69408"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69356",
+      "published": "2026-09-08T18:18:55.060",
+      "lastModified": "2026-09-08T19:22:18.470",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Exchange Server allows an unauthorized attacker to perform spoofing over a network.",
+      "cvss": {
+        "score": 9.3,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-79",
+          "name": "Cross-Site Scripting (XSS)"
+        }
+      ],
+      "vendors": [
+        "Microsoft Microsoft Exchange Server 2016 Cumulative Update 23",
+        "Microsoft Microsoft Exchange Server 2019 Cumulative Update 14",
+        "Microsoft Microsoft Exchange Server 2019 Cumulative Update 15",
+        "Microsoft Microsoft Exchange Server Subscription Edition RTM"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69356"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-69276",
+      "published": "2026-09-08T18:18:41.153",
+      "lastModified": "2026-09-08T20:17:45.247",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Integer underflow (wrap or wraparound) in Microsoft UxTheme Library (uxtheme.dll) allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        },
+        {
+          "id": "CWE-191",
+          "name": "CWE-191"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69276"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-68839",
+      "published": "2026-09-08T18:18:31.623",
+      "lastModified": "2026-09-08T18:39:13.460",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Heap-based buffer overflow in Windows USB Mass Storage Class Driver allows an unauthorized attacker to execute code over a network.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-20",
+          "name": "Improper Input Validation"
+        },
+        {
+          "id": "CWE-122",
+          "name": "CWE-122"
+        }
+      ],
+      "vendors": [
+        "Microsoft Windows 10 Version 1607",
+        "Microsoft Windows 10 Version 1809",
+        "Microsoft Windows 10 Version 21H2",
+        "Microsoft Windows 10 Version 22H2",
+        "Microsoft Windows 11 version 23H2"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68839"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-65669",
+      "published": "2026-09-08T18:18:14.893",
+      "lastModified": "2026-09-09T04:18:03.657",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Improper neutralization of special elements in output used by a downstream component ('injection') in SQL Server allows an unauthorized attacker to elevate privileges over a network.",
+      "cvss": {
+        "score": 9.6,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-74",
+          "name": "CWE-74"
+        }
+      ],
+      "vendors": [
+        "Microsoft SQL Server Management Studio 22"
+      ],
+      "references": [
+        "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-65669"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-82533",
+      "published": "2026-09-08T17:18:36.887",
+      "lastModified": "2026-09-08T19:53:13.400",
+      "vulnStatus": "Deferred",
+      "description": "DeepSeek Harness before 0.1.2-alpha.1 contains an authentication bypass vulnerability in its local HTTP control-plane API that allows attackers to gain full agent control by supplying a spoofed Host header, as the server validates only the client-supplied Host header value rather than the actual TCP connection origin. Attackers can exploit this flaw to invoke privileged commands such as commands/execute with danger-full-access permissions, escalate session approval policies to unconfined executi",
+      "cvss": {
+        "score": 9.6,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-807",
+          "name": "CWE-807"
+        }
+      ],
+      "vendors": [
+        "DeepSeek DeepSeek Harness"
+      ],
+      "references": [
+        "https://github.com/deepseek-ai/deepseek-harness/commit/3e24087bfaeabe40b58ba2f7b936895b8f93fe27",
+        "https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.1.2-alpha.1",
+        "https://www.vulncheck.com/advisories/deepseek-harness-alpha-1-authentication-bypass-via-host-header-spoofing"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-79569",
+      "published": "2026-09-08T17:18:31.143",
+      "lastModified": "2026-09-08T19:19:51.210",
+      "vulnStatus": "Received",
+      "description": "Movie_Recommend v1.0.0 was discovered to contain a SQL injection vulnerability in the sort parameter at /loadingmore. This vulnerability allows attackers to access sensitive database information via a crafted SQL statement.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-89",
+          "name": "SQL Injection"
+        }
+      ],
+      "vendors": [],
+      "references": [
+        "https://github.com/fangtang7/CVE/blob/main/movie/sql.md"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-75156",
+      "published": "2026-09-08T17:18:30.393",
+      "lastModified": "2026-09-08T19:19:40.427",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD `id_token`s during OAuth login. Deployments are affected only when the FAB auth manager is configured with Azure AD as an OAuth provider. Because the signing keys are fetched from Microsoft's **multi-tenant** JWKS endpoint, an `id_token` minted in *any* Azure tenant \u2014 including one the attacker creates \u2014 passes signature verification, and the username and role assignments are then read fro",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-346",
+          "name": "CWE-346"
+        }
+      ],
+      "vendors": [
+        "Apache Software Foundation Apache Airflow FAB provider"
+      ],
+      "references": [
+        "https://github.com/apache/airflow/pull/71735",
+        "https://lists.apache.org/thread/n3l6z4jfdxj4p0t8l7m6olkq6xsc6f76",
+        "https://www.cve.org/CVERecord?id=CVE-2026-59243"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-26084",
+      "published": "2026-09-08T17:17:34.590",
+      "lastModified": "2026-09-08T18:35:10.323",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "A improper access control vulnerability in Fortinet FortiSandbox 5.0.0 through 5.0.5, FortiSandbox 4.4.0 through 4.4.8, FortiSandbox Cloud 5.0.4 through 5.0.5, FortiSandbox PaaS 5.0.4 through 5.0.5 may allow attacker to access sensitive information via crafted HTTP requests.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-284",
+          "name": "Improper Access Control"
+        }
+      ],
+      "vendors": [
+        "Fortinet FortiSandbox PaaS",
+        "Fortinet FortiSandbox",
+        "Fortinet FortiSandbox Cloud"
+      ],
+      "references": [
+        "https://fortiguard.fortinet.com/psirt/FG-IR-26-166"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-79576",
+      "published": "2026-09-08T15:18:48.417",
+      "lastModified": "2026-09-08T16:18:15.233",
+      "vulnStatus": "Received",
+      "description": "An issue in the Single-Sign On (SSO) component of Digital-Infrastructure v9.6.7 allows attackers to authenticate as any user, including the Admin, without a password.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-287",
+          "name": "Improper Authentication"
+        }
+      ],
+      "vendors": [],
+      "references": [
+        "https://github.com/fangtang7/CVE/blob/main/Digital-Infrastructure/sso.md"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-61516",
+      "published": "2026-09-08T15:18:44.170",
+      "lastModified": "2026-09-08T19:56:50.950",
+      "vulnStatus": "Deferred",
+      "description": "Netis NX10 firmware V4.0.1.5808 and V3.0.0.4142 contain an information disclosure vulnerability that allows unauthenticated attackers to retrieve the administrator password by sending a request to the sysinfo action in the web management interface without a valid session. Attackers can replay the exposed credential against the login handler to establish a fully authenticated administrator session on the device.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-522",
+          "name": "Insufficiently Protected Credentials"
+        }
+      ],
+      "vendors": [
+        "Netis Systems NX10"
+      ],
+      "references": [
+        "https://hackwithmike.com/research/advisories/netis/cve-2026-61516",
+        "https://hackwithmike.com/research/netis/2026-09",
+        "https://www.netis-systems.com/products/NX10.html",
+        "https://www.vulncheck.com/advisories/netis-nx10-credential-disclosure-via-sysinfo-diagnostic-endpoint"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12745",
+      "published": "2026-09-08T15:18:41.190",
+      "lastModified": "2026-09-09T05:17:19.467",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote unauthenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-502",
+          "name": "Deserialization of Untrusted Data"
+        }
+      ],
+      "vendors": [
+        "Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12744",
+      "published": "2026-09-08T15:18:41.080",
+      "lastModified": "2026-09-09T05:17:19.343",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote unauthenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-502",
+          "name": "Deserialization of Untrusted Data"
+        }
+      ],
+      "vendors": [
+        "Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12650",
+      "published": "2026-09-08T15:18:40.850",
+      "lastModified": "2026-09-09T05:17:19.100",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Deserialization of Untrusted Data vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-502",
+          "name": "Deserialization of Untrusted Data"
+        }
+      ],
+      "vendors": [
+        "Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12647",
+      "published": "2026-09-08T15:18:40.623",
+      "lastModified": "2026-09-09T05:17:18.860",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Missing Authorization vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Ivanti Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12646",
+      "published": "2026-09-08T15:18:40.507",
+      "lastModified": "2026-09-09T05:17:18.737",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Missing Authorization vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Ivanti Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-12645",
+      "published": "2026-09-08T15:18:40.380",
+      "lastModified": "2026-09-09T05:17:18.610",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "A Missing Authorization vulnerability in Ivanti Neurons for ITSM before 2026.2 allows a remote authenticated attacker to execute arbitrary code on the server.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Ivanti Ivanti Neurons for ITSM"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Neurons-for-ITSM-Multiple-CVEs?language=en_US"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-78234",
+      "published": "2026-09-08T12:16:59.560",
+      "lastModified": "2026-09-08T19:08:15.590",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "A flaw was found in hawtio-operator. The operator reads the OpenShift Service CA private signing key from the openshift-service-ca namespace and uses it to mint client certificates with a Subject Common Name (CN) supplied by the author of a namespaced Hawtio custom resource. Because the operator ships a ClusterRole that aggregates Hawtio CR permissions into the edit and admin roles, any user with edit access in any namespace can obtain a Service-CA-signed certificate with an arbitrary subject. T",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-295",
+          "name": "Improper Certificate Validation"
+        }
+      ],
+      "vendors": [
+        "Red Hat Red Hat build of Apache Camel - HawtIO 4"
+      ],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-78234",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2524894"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-71377",
+      "published": "2026-09-08T09:18:20.840",
+      "lastModified": "2026-09-08T14:18:34.130",
+      "vulnStatus": "Deferred",
+      "description": "Command Argument Injection Vulnerability in Cosminexus Component Container. This issue affects Cosminexus Component Container: from 11-70-01 before 11-70-03, from 11-60 before 11-60-03, from 11-50 through 11-50-03, from 11-40 through 11-40-03, from 11-30 through 11-30-08, from 11-20 before 11-20-10, from 11-10 through 11-10-11, from 11-00 through 11-00-12, from 09-87 before 09-87-10, from 09-80 through 09-80-04, from 09-70 before 09-70-28, from 09-50 through 09-50-22, and from 09-00 through 09-0",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-88",
+          "name": "Argument Injection"
+        }
+      ],
+      "vendors": [
+        "Hitachi Cosminexus Component Container"
+      ],
+      "references": [
+        "https://www.hitachi.com/products/it/software/security/info/vuls/hitachi-sec-2026-133/index.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-71376",
+      "published": "2026-09-08T09:18:20.713",
+      "lastModified": "2026-09-08T14:18:34.130",
+      "vulnStatus": "Deferred",
+      "description": "OS command injection vulnerability in Cosminexus Component Container. This issue affects Cosminexus Component Container: from 11-70-01 before 11-70-03, from 11-60 before 11-60-03, from 11-50 through 11-50-03, from 11-40 through 11-40-03, from 11-30 through 11-30-08, from 11-20 before 11-20-10, from 11-10 through 11-10-11, from 11-00 before 11-00-13, from 09-87 before 09-87-10, from 09-80 before 09-80-05, from 09-70 before 09-70-28, from 09-50 through 09-50-22, and from 09-00 through 09-00-18.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "Hitachi Cosminexus Component Container"
+      ],
+      "references": [
+        "https://www.hitachi.com/products/it/software/security/info/vuls/hitachi-sec-2026-132/index.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-62645",
+      "published": "2026-09-08T09:18:16.583",
+      "lastModified": "2026-09-08T18:41:55.127",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability has been identified in Reyrolle 7SR5 (All versions < V2.70). Information is exposed through the web interface that can be used to calculate the current and past session ID numbers. This could allow an attacker to bypass the authentication and gain unauthorized access to the device.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-306",
+          "name": "Missing Authentication for Critical Function"
+        }
+      ],
+      "vendors": [
+        "Siemens Reyrolle 7SR5"
+      ],
+      "references": [
+        "https://cert-portal.siemens.com/productcert/html/ssa-142885.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-50093",
+      "published": "2026-09-08T09:18:10.733",
+      "lastModified": "2026-09-08T18:41:55.127",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability has been identified in Siveillance Control Pro V3.0 (All versions < V3.0.12.2173), Siveillance Control Pro V4.0 (All versions < V4.0.9.2178), Siveillance Control V3.0 (All versions < V3.0.22.2177), Siveillance Control V4.0 (All versions < V4.0.11.2177). A vulnerability in the OIS web module allows an attacker to upload arbitrary files to the server. Successful exploitation of this vulnerability could allow an attacker to gain root access on the host system, potentially leading to",
+      "cvss": {
+        "score": 9.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-434",
+          "name": "Unrestricted Dangerous File Upload"
+        }
+      ],
+      "vendors": [
+        "Siemens Siveillance Control Pro V3.0",
+        "Siemens Siveillance Control Pro V4.0",
+        "Siemens Siveillance Control V3.0",
+        "Siemens Siveillance Control V4.0"
+      ],
+      "references": [
+        "https://cert-portal.siemens.com/productcert/html/ssa-254516.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-71374",
+      "published": "2026-09-08T08:17:11.563",
+      "lastModified": "2026-09-08T14:18:34.130",
+      "vulnStatus": "Deferred",
+      "description": "Deserialization of untrusted data vulnerability in Cosminexus Component Container. This issue affects Cosminexus Component Container: from 11-70-01 before 11-70-03, from 11-60 before 11-60-03, from 11-50 through 11-50-03, from 11-40 through 11-40-03, from 11-30 through 11-30-08, from 11-20 before 11-20-10, from 11-10 through 11-10-11, from 11-00 before 11-00-13, from 09-87 before 09-87-10, from 09-80 before 09-80-05, from 09-70 before 09-70-28, from 09-50 through 09-50-22, and from 09-00 through",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-502",
+          "name": "Deserialization of Untrusted Data"
+        }
+      ],
+      "vendors": [
+        "Hitachi Cosminexus Component Container"
+      ],
+      "references": [
+        "https://www.hitachi.com/products/it/software/security/info/vuls/hitachi-sec-2026-130/index.html"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86510",
+      "published": "2026-09-08T02:17:28.357",
+      "lastModified": "2026-09-08T17:18:39.887",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability has been found in D-Link DIR-822A A_101. Affected is the function tunnel_set_params of the component L2TP Control Message Parser. Such manipulation leads to out-of-bounds write. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-119",
+          "name": "Memory Buffer Boundary Violation"
+        },
+        {
+          "id": "CWE-787",
+          "name": "Out-of-Bounds Write"
+        }
+      ],
+      "vendors": [
+        "D-Link DIR-822A"
+      ],
+      "references": [
+        "https://tzh00203.notion.site/D-Link-DIR-822A-L2TP-Host-Name-AVP-Out-of-Bounds-Write-33cb5c52018a80a7af5fdc1af3d5aa73",
+        "https://vuldb.com/cve/CVE-2026-86510",
+        "https://vuldb.com/submit/906300",
+        "https://vuldb.com/vuln/399663"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86509",
+      "published": "2026-09-08T01:17:55.947",
+      "lastModified": "2026-09-08T13:12:58.310",
+      "vulnStatus": "Deferred",
+      "description": "A flaw has been found in D-Link DIR-895L A1_102b07. This impacts the function sendOffer/sendACK of the file udhcpcd/serverpacket.c of the component udhcpcd. This manipulation causes stack-based buffer overflow. The attack can only be done within the local network. The exploit has been published and may be used.",
+      "cvss": {
+        "score": 9.6,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-119",
+          "name": "Memory Buffer Boundary Violation"
+        },
+        {
+          "id": "CWE-121",
+          "name": "CWE-121"
+        }
+      ],
+      "vendors": [
+        "D-Link DIR-895L"
+      ],
+      "references": [
+        "https://tzh00203.notion.site/D-Link-DIR-895L-Stack-Overflow-in-udhcpd-TR-111-Option-125-Parsing-33cb5c52018a80dc8140e1502e4814d0",
+        "https://vuldb.com/cve/CVE-2026-86509",
+        "https://vuldb.com/submit/906298",
+        "https://vuldb.com/vuln/399662"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-76969",
+      "published": "2026-09-08T01:17:55.407",
+      "lastModified": "2026-09-08T19:12:59.557",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "@sap/cds-mtxs NPM library does not perform sufficient checks on certain functionality used in multitenant CAP applications with extensibility enabled. An unauthenticated attacker could send specially crafted requests to obtain sensitive credentials and abuse them to replace or delete tenant data. Successful exploitation can result in a high impact on availability and integrity of the application. There may also be partial impact to the confidentiality of business data.",
+      "cvss": {
+        "score": 9.4,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-522",
+          "name": "Insufficiently Protected Credentials"
+        }
+      ],
+      "vendors": [
+        "SAP_SE SAP Cloud Application Programming Model (CAP)"
+      ],
+      "references": [
+        "https://me.sap.com/notes/3798315",
+        "https://url.sap/sapsecuritypatchday"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-66768",
+      "published": "2026-09-08T01:17:52.113",
+      "lastModified": "2026-09-09T05:17:27.537",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend system to trigger affected functionality. This could allow arbitrary command execution on the victim's machine, leading to a high impact on the confidentiality, integrity, and availability of the affected system.",
+      "cvss": {
+        "score": 9.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-807",
+          "name": "CWE-807"
+        }
+      ],
+      "vendors": [
+        "SAP_SE SAP NetWeaver (SAP GUI for Java)"
+      ],
+      "references": [
+        "https://me.sap.com/notes/3781729",
+        "https://url.sap/sapsecuritypatchday"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-58240",
+      "published": "2026-09-08T01:17:51.080",
+      "lastModified": "2026-09-09T05:17:26.417",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could exploit this weakness to register an unauthorized component and potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity, and availability of the affected system.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-308",
+          "name": "CWE-308"
+        }
+      ],
+      "vendors": [
+        "SAP_SE SAP NetWeaver (Message Server)"
+      ],
+      "references": [
+        "https://me.sap.com/notes/3759472",
+        "https://url.sap/sapsecuritypatchday"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-44756",
+      "published": "2026-09-08T01:17:30.840",
+      "lastModified": "2026-09-08T19:12:59.557",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "A memory safety vulnerability exists in the Extended Passport Protocol (EPP) processing library. Under specific conditions, an unauthenticated attacker could exploit a crafted network request containing a malformed EPP header, potentially resulting in undefined behavior and abnormal program termination. Successful exploitation may have a high impact on the confidentiality, integrity, and availability of the application.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-120",
+          "name": "Buffer Overflow"
+        }
+      ],
+      "vendors": [
+        "SAP_SE SAP Extended Passport (EPP) Processing"
+      ],
+      "references": [
+        "https://me.sap.com/notes/3747649",
+        "https://url.sap/sapsecuritypatchday"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86543",
+      "published": "2026-09-07T23:16:54.160",
+      "lastModified": "2026-09-08T19:56:50.950",
+      "vulnStatus": "Deferred",
+      "description": "knowns versions before 0.30.0 serve the management API without authentication on all network interfaces by default, with no password required on fresh installations. Attackers can access the unauthenticated /api/tunnel/start endpoint to provision a public tunnel and republish the API at a publicly accessible address.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-306",
+          "name": "Missing Authentication for Critical Function"
+        }
+      ],
+      "vendors": [
+        "knowns-dev knowns"
+      ],
+      "references": [
+        "https://github.com/knowns-dev/knowns/blob/v0.29.1/internal/cli/browser.go#L193-L200",
+        "https://github.com/knowns-dev/knowns/blob/v0.29.1/internal/server/auth.go#L80-L86",
+        "https://github.com/knowns-dev/knowns/blob/v0.29.1/internal/server/routes/tunnel.go#L26-L38",
+        "https://github.com/knowns-dev/knowns/commit/878a02cb7cc14f0a592fdfda7a520af3cac500fb"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86542",
+      "published": "2026-09-07T23:16:54.020",
+      "lastModified": "2026-09-08T19:56:50.950",
+      "vulnStatus": "Deferred",
+      "description": "knowns before 0.30.0 fails to validate import names in the import routes, allowing unauthenticated attackers to write files outside the imports directory. Attackers can supply traversal sequences in the name parameter to escape the imports directory and overwrite arbitrary files writable by the server process.",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-22",
+          "name": "Path Traversal"
+        }
+      ],
+      "vendors": [
+        "knowns-dev knowns"
+      ],
+      "references": [
+        "https://github.com/knowns-dev/knowns/blob/v0.29.1/internal/server/routes/imports.go#L376-L420",
+        "https://github.com/knowns-dev/knowns/blob/v0.29.1/internal/server/routes/imports.go#L519-L551",
+        "https://github.com/knowns-dev/knowns/commit/d3989829fb5095666d23d005b2f78a082832a396",
+        "https://github.com/knowns-dev/knowns/releases/tag/v0.30.0"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86480",
+      "published": "2026-09-07T17:17:26.150",
+      "lastModified": "2026-09-09T05:18:19.830",
+      "vulnStatus": "Deferred",
+      "description": "In JetBrains Hub before 2026.2.52442 an unauthenticated attacker could register a trusted service and gain superuser privileges",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-306",
+          "name": "Missing Authentication for Critical Function"
+        }
+      ],
+      "vendors": [
+        "JetBrains Hub"
+      ],
+      "references": [
+        "https://www.jetbrains.com/privacy-security/issues-fixed/"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86478",
+      "published": "2026-09-07T17:17:25.920",
+      "lastModified": "2026-09-09T05:18:19.617",
+      "vulnStatus": "Deferred",
+      "description": "In JetBrains YouTrack before 2025.3.161254, 2026.1.14042 improper authentication in YouTrack Helpdesk allowed unauthenticated account takeover via a self-asserted email address",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-290",
+          "name": "CWE-290"
+        }
+      ],
+      "vendors": [
+        "JetBrains YouTrack"
+      ],
+      "references": [
+        "https://www.jetbrains.com/privacy-security/issues-fixed/"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-7861",
+      "published": "2026-09-07T15:17:32.153",
+      "lastModified": "2026-09-09T09:17:11.703",
+      "vulnStatus": "Deferred",
+      "description": "Deserialization of untrusted data vulnerability in Next4Biz Information Technologies Inc. CSM (Customer Service Management) allows Code Injection. This issue affects CSM (Customer Service Management): before 8.0.3.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-502",
+          "name": "Deserialization of Untrusted Data"
+        }
+      ],
+      "vendors": [
+        "Next4Biz Information Technologies Inc. CSM (Customer Service Management)"
+      ],
+      "references": [
+        "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-1027"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-18922",
+      "published": "2026-09-07T15:17:31.157",
+      "lastModified": "2026-09-08T19:08:15.590",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "A flaw was found in 389 Directory Server. During SASL PLAIN authentication, a stale identity carried in a Cyrus SASL auxiliary property from a prior failed bind attempt can be installed on a connection following a subsequent, unrelated successful bind, regardless of which SASL mechanism completes that second bind. An attacker can send a SASL PLAIN bind as cn=Directory Manager with an incorrect password, then complete a SASL ANONYMOUS bind on the same connection, causing the server to grant Direc",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-287",
+          "name": "Improper Authentication"
+        }
+      ],
+      "vendors": [
+        "Red Hat Red Hat Directory Server 11.7 E4S for RHEL 8",
+        "Red Hat Red Hat Directory Server 11.9 for RHEL 8",
+        "Red Hat Red Hat Directory Server 12.2 E4S for RHEL 9",
+        "Red Hat Red Hat Directory Server 12.4 E4S for RHEL 9",
+        "Red Hat Red Hat Enterprise Linux 10"
+      ],
+      "references": [
+        "https://access.redhat.com/errata/RHSA-2026:64771",
+        "https://access.redhat.com/errata/RHSA-2026:64776",
+        "https://access.redhat.com/errata/RHSA-2026:64778",
+        "https://access.redhat.com/errata/RHSA-2026:64779"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-80238",
+      "published": "2026-09-07T13:20:39.293",
+      "lastModified": "2026-09-08T14:17:29.770",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains an Execution with Unnecessary Privileges vulnerability. An unauthenticated attacker with local access could potentially exploit this vulnerability, leading to Protection mechanism bypass. This vulnerability is considered critical because a low-privileged operator with SSH access to the SCG host can gain root-level access to the host without requiring a password by leveraging th",
+      "cvss": {
+        "score": 9.3,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-250",
+          "name": "CWE-250"
+        }
+      ],
+      "vendors": [
+        "Dell Secure Connect Gateway 5.0 - Application",
+        "Dell Secure Connect Gateway 5.0 - Appliance"
+      ],
+      "references": [
+        "https://www.dell.com/support/kbdoc/en-in/000503426/dsa-2026-382-security-update-for-dell-secure-connect-gateway-virtual-edition-multiple-vulnerabilities?msockid=3021cac2195069ed3194ddad186a68f9"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-76578",
+      "published": "2026-09-07T13:20:36.850",
+      "lastModified": "2026-09-08T19:08:15.590",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "A flaw was found in FreeIPA. The self-managed OTP token ACI does not require authentication and does not restrict which attributes may be added alongside the token entry. An unauthenticated LDAP client can exploit this, combined with a related flaw in the underlying directory server's ACI evaluation (tracked separately), to create an arbitrary attacker-controlled Kerberos principal and have it added to the administrators group. This allows a remote, unauthenticated attacker to obtain genuine Fre",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-306",
+          "name": "Missing Authentication for Critical Function"
+        }
+      ],
+      "vendors": [
+        "Red Hat Red Hat Enterprise Linux 10",
+        "Red Hat Red Hat Enterprise Linux 6",
+        "Red Hat Red Hat Enterprise Linux 7",
+        "Red Hat Red Hat Enterprise Linux 8",
+        "Red Hat Red Hat Enterprise Linux 9"
+      ],
+      "references": [
+        "https://access.redhat.com/security/cve/CVE-2026-76578",
+        "https://bugzilla.redhat.com/show_bug.cgi?id=2519522"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-6223",
+      "published": "2026-09-07T13:20:33.977",
+      "lastModified": "2026-09-08T16:18:11.513",
+      "vulnStatus": "Deferred",
+      "description": "Improper restriction of excessive authentication attempts vulnerability in Bah\u00e7elievler Muncipality BiHayat App allows Authentication Bypass. This issue affects BiHayat App: from 2.1.7 through 07092026. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
+      "cvss": {
+        "score": 9.4,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-307",
+          "name": "CWE-307"
+        }
+      ],
+      "vendors": [
+        "Bah\u00e7elievler Muncipality BiHayat App"
+      ],
+      "references": [
+        "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-26-1014"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-61410",
+      "published": "2026-09-07T13:20:33.853",
+      "lastModified": "2026-09-08T14:14:23.790",
+      "vulnStatus": "Undergoing Analysis",
+      "description": "Dell SCG 5.0 Appliance versions prior to 5.36.00.16 and Dell SCG 5.0 Application versions prior to 5.36.00.00, contains a Missing Authorization vulnerability. An unauthenticated attacker with remote access could potentially exploit this vulnerability, leading to remote execution. This vulnerability is considered critical because it allows an attacker to execute commands remotely on a target system by sending a specially crafted request to the application, bypassing intended restrictions on code ",
+      "cvss": {
+        "score": 9.4,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-862",
+          "name": "Missing Authorization"
+        }
+      ],
+      "vendors": [
+        "Dell Secure Connect Gateway 5.0 - Application",
+        "Dell Secure Connect Gateway 5.0 - Appliance"
+      ],
+      "references": [
+        "https://www.dell.com/support/kbdoc/en-in/000503426/dsa-2026-382-security-update-for-dell-secure-connect-gateway-virtual-edition-multiple-vulnerabilities"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86299",
+      "published": "2026-09-07T12:17:21.340",
+      "lastModified": "2026-09-08T13:12:58.310",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was detected in Linksys RE7000 2.0.15. This affects the function platform_event_pingTest of the file /cgi-bin/json.cgi?PingTest of the component PingTest Handler. The manipulation of the argument pingTestIp/pingTestPktSize/pingTestTimes results in os command injection. The attack can be launched remotely. The exploit is now public and may be used.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        },
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "Linksys RE7000"
+      ],
+      "references": [
+        "https://github.com/limou89/somevul/blob/main/Linksys_RE7000_v2_PingTest_Command_Injection.md",
+        "https://vuldb.com/cve/CVE-2026-86299",
+        "https://vuldb.com/submit/906547",
+        "https://vuldb.com/vuln/399463"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86296",
+      "published": "2026-09-07T11:17:39.550",
+      "lastModified": "2026-09-08T17:18:39.613",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was determined in D-Link DIR-822A A_101. This vulnerability affects the function strcpy of the file udhcpcd/serverpacket.c of the component udhcpcd. This manipulation causes stack-based buffer overflow. The attack is possible to be carried out remotely. The exploit has been publicly disclosed and may be utilized.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-119",
+          "name": "Memory Buffer Boundary Violation"
+        },
+        {
+          "id": "CWE-121",
+          "name": "CWE-121"
+        }
+      ],
+      "vendors": [
+        "D-Link DIR-822A"
+      ],
+      "references": [
+        "https://tzh00203.notion.site/D-Link-DIR-822A-Stack-Overflow-in-udhcpd-TR-111-Option-125-Parsing-33cb5c52018a80238b80e89e7c7c68f0",
+        "https://vuldb.com/cve/CVE-2026-86296",
+        "https://vuldb.com/submit/906297",
+        "https://vuldb.com/vuln/399458"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-79698",
+      "published": "2026-09-07T07:16:47.420",
+      "lastModified": "2026-09-08T13:12:58.310",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was identified in Advantech WISE-6610-NB, WISE-6610-EB, WISE-6610-TB, WISE-6610-JB, WISE-6610-CB, WISE-6610-EL-NB, WISE-6610-EL-EB, WISE-6610-EL-TB, WISE-6610-EL-JB, WISE-6610-EL-CB, WISE-6610P-DEA, WISE-6610P-DNA and WISE-6610P-DTA 1.2.1_20251110. This vulnerability affects the function nodered_lib_apply of the component Node-RED Library. Such manipulation of the argument act leads to command injection. The attack can be launched remotely. The exploit is publicly available and m",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-74",
+          "name": "CWE-74"
+        },
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        }
+      ],
+      "vendors": [
+        "Advantech WISE-6610-NB",
+        "Advantech WISE-6610-EB",
+        "Advantech WISE-6610-TB",
+        "Advantech WISE-6610-JB",
+        "Advantech WISE-6610-CB"
+      ],
+      "references": [
+        "https://uvxbywu62qm.feishu.cn/wiki/RgziwoXf2iD9zKkI4MJcfWcNn7c?from=from_copylink",
+        "https://vuldb.com/cve/CVE-2026-79698",
+        "https://vuldb.com/submit/879219",
+        "https://vuldb.com/vuln/399513"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-79697",
+      "published": "2026-09-07T07:16:45.903",
+      "lastModified": "2026-09-08T14:17:29.160",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was determined in Advantech WISE-6610-NB, WISE-6610-EB, WISE-6610-TB, WISE-6610-JB, WISE-6610-CB, WISE-6610-EL-NB, WISE-6610-EL-EB, WISE-6610-EL-TB, WISE-6610-EL-JB, WISE-6610-EL-CB, WISE-6610P-DEA, WISE-6610P-DNA and WISE-6610P-DTA 1.2.1_20251110. This affects the function basicstation_apply of the component Basic Station Certificate-Deletion Handler. This manipulation of the argument act causes command injection. The attack can be initiated remotely. The exploit has been public",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-74",
+          "name": "CWE-74"
+        },
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        }
+      ],
+      "vendors": [
+        "Advantech WISE-6610-NB",
+        "Advantech WISE-6610-EB",
+        "Advantech WISE-6610-TB",
+        "Advantech WISE-6610-JB",
+        "Advantech WISE-6610-CB"
+      ],
+      "references": [
+        "https://uvxbywu62qm.feishu.cn/wiki/EzwXwS0vKiroHmk9rqzcjP0EnMe?from=from_copylink",
+        "https://vuldb.com/cve/CVE-2026-79697",
+        "https://vuldb.com/submit/879208",
+        "https://vuldb.com/vuln/399512"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86304",
+      "published": "2026-09-06T23:17:39.483",
+      "lastModified": "2026-09-08T19:20:13.933",
+      "vulnStatus": "Deferred",
+      "description": "MojoX::Authentication versions before 0.006 for Perl allow SAML authentication bypass because parse_assertion builds Net::SAML2::Binding::POST without a trust anchor. parse_assertion in MojoX::Authentication::Model::SAML2 calls Net::SAML2::Binding::POST->new with no cacert, cert_text or anchors argument, then passes the returned XML to Net::SAML2::Protocol::Assertion->new_from_xml with the IdP signing certificate as cacert. In Net::SAML2 before 0.86 that certificate guards only encrypted asserti",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-347",
+          "name": "Improper Verification of Cryptographic Signature"
+        }
+      ],
+      "vendors": [],
+      "references": [
+        "https://metacpan.org/release/POLETTIX/MojoX-Authentication-0.004/source/lib/MojoX/Authentication/Model/SAML2.pm#L188",
+        "https://metacpan.org/release/POLETTIX/MojoX-Authentication-0.006/source/Changes",
+        "https://www.cve.org/CVERecord?id=CVE-2026-18089"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2026-86219",
+      "published": "2026-09-06T18:17:23.027",
+      "lastModified": "2026-09-08T19:20:10.770",
+      "vulnStatus": "Deferred",
+      "description": "Authen::SASL::Perl::DIGEST_MD5 versions before 2.2100 for Perl accept replayed authentication responses via unverified nonce in server_step. server_start generates a fresh nonce and sends it in the challenge, and nothing later compares that value against the nonce the client returns. server_step derives the expected digest from the client's own parameters, so a response verifies whenever its digest matches the nonce it carries. The count table it also checks is keyed on the client-supplied nonce",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-294",
+          "name": "CWE-294"
+        }
+      ],
+      "vendors": [],
+      "references": [
+        "https://datatracker.ietf.org/doc/html/rfc2831#section-2.1.2",
+        "https://github.com/perl-authen-sasl/perl-authen-sasl/commit/94337367030612842924f697cead29964a96448d.patch",
+        "https://metacpan.org/release/EHUELS/Authen-SASL-2.2000/source/lib/Authen/SASL/Perl/DIGEST_MD5.pm#L203-222",
+        "https://metacpan.org/release/EHUELS/Authen-SASL-2.2000/source/lib/Authen/SASL/Perl/DIGEST_MD5.pm#L410-414"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    }
+  ]
+}

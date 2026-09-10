@@ -1,0 +1,120 @@
+{
+  "month": "2022-09",
+  "entries": [
+    {
+      "id": "3cb96cb64f1a",
+      "source": "Elastic Security Labs",
+      "title": "Handy Elastic Tools for the Enthusiastic Detection Engineer",
+      "description": "Tools like the EQLPlaygound, RTAs, and detection-rules CLI are great resources for getting started with EQL, threat hunting, and detection engineering respectively.",
+      "link": "https://www.elastic.co/security-labs/blog/handy-elastic-tools-for-the-enthusiastic-detection-engineer",
+      "published": "Mon, 12 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        12,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    },
+    {
+      "id": "83295146e997",
+      "source": "Elastic Security Labs",
+      "title": "Detecting and responding to Dirty Pipe with Elastic",
+      "description": "Elastic Security is releasing detection logic for the Dirty Pipe exploit.",
+      "link": "https://www.elastic.co/security-labs/blog/detecting-and-responding-to-dirty-pipe-with-elastic",
+      "published": "Fri, 09 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        9,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Hunting"
+      ]
+    },
+    {
+      "id": "ec326f130830",
+      "source": "Elastic Security Labs",
+      "title": "Extracting Cobalt Strike Beacon Configurations",
+      "description": "Part 2 - Extracting configurations from Cobalt Strike implant beacons.",
+      "link": "https://www.elastic.co/security-labs/blog/extracting-cobalt-strike-beacon-configurations",
+      "published": "Fri, 09 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        9,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    },
+    {
+      "id": "7efdec1578ea",
+      "source": "Elastic Security Labs",
+      "title": "BUGHATCH Malware Analysis",
+      "description": "Elastic Security has performed a deep technical analysis of the BUGHATCH malware. This includes capabilities as well as defensive countermeasures.",
+      "link": "https://www.elastic.co/security-labs/threat-command/bughatch-malware-analysis",
+      "published": "Fri, 09 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        9,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "fadf0a733829",
+      "source": "Elastic Security Labs",
+      "title": "Elastic protects against data wiper malware targeting Ukraine: HERMETICWIPER",
+      "description": "Analysis of the HERMETICWIPER malware targeting Ukranian organizations.",
+      "link": "https://www.elastic.co/security-labs/threat-command/elastic-protects-against-data-wiper-malware-targeting-ukraine-hermeticwiper",
+      "published": "Fri, 09 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        9,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "8af18ca7742e",
+      "source": "Elastic Security Labs",
+      "title": "CUBA Ransomware Campaign Analysis",
+      "description": "Elastic Security observed a ransomware and extortion campaign leveraging a combination of offensive security tools, LOLBAS, and exploits to deliver the CUBA ransomware malware.",
+      "link": "https://www.elastic.co/security-labs/threat-command/cuba-ransomware-campaign-analysis",
+      "published": "Thu, 08 Sep 2022 00:00:00 GMT",
+      "published_sort": [
+        2022,
+        9,
+        8,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Intelligence"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.697872+00:00"
+}

@@ -1,0 +1,175 @@
+{
+  "month": "2023-05",
+  "entries": [
+    {
+      "id": "9461761469e4",
+      "source": "Elastic Security Labs",
+      "title": "Upping the Ante: Detecting In-Memory Threats with Kernel Call Stacks",
+      "description": "We aim to out-innovate adversaries and maintain protections against the cutting edge of attacker tradecraft. With Elastic Security 8.8, we added new kernel call stack based detections which provide us with improved efficacy against in-memory threats.",
+      "link": "https://www.elastic.co/security-labs/threat-command/upping-the-ante-detecting-in-memory-threats-with-kernel-call-stacks",
+      "published": "Wed, 31 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        31,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Detection Engineering"
+      ]
+    },
+    {
+      "id": "bd65b0f2fed2",
+      "source": "Elastic Security Labs",
+      "title": "Elastic Security Labs steps through the r77 rootkit",
+      "description": "Elastic Security Labs explores a campaign leveraging the r77 rootkit and has been observed deploying the XMRIG crypto miner. The research highlights the different modules of the rootkit and how they\u2019re used to deploy additional malicious payloads.",
+      "link": "https://www.elastic.co/security-labs/threat-command/elastic-security-labs-steps-through-the-r77-rootkit",
+      "published": "Mon, 22 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        22,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "5e96bd91e3a0",
+      "source": "Elastic Security Labs",
+      "title": "Detect domain generation algorithm (DGA) activity with new Kibana integration",
+      "description": "We have added a DGA detection package to the Integrations app in Kibana. In a single click, you can install and start using the DGA model and associated assets, including ingest pipeline configurations, anomaly detection jobs, and detection rules.",
+      "link": "https://www.elastic.co/security-labs/blog/detect-domain-generation-algorithm-activity-with-new-kibana-integration",
+      "published": "Wed, 17 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        17,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "AI & Automation"
+      ]
+    },
+    {
+      "id": "194f465d4b92",
+      "source": "Elastic Security Labs",
+      "title": "Elastic Security Labs discovers the LOBSHOT malware",
+      "description": "Elastic Security Labs is naming a new malware family, LOBSHOT. LOBSHOT propagates and infiltrates targeted networks through Google Ads and hVNC sessions to deploy backdoors masquerading as legitimate application installers.",
+      "link": "https://www.elastic.co/security-labs/threat-command/elastic-security-labs-discovers-lobshot-malware",
+      "published": "Tue, 16 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        16,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "819ca2d49889",
+      "source": "Elastic Security Labs",
+      "title": "Exploring Windows UAC Bypasses: Techniques and Detection Strategies",
+      "description": "In this research article, we will take a look at a collection of UAC bypasses, investigate some of the key primitives they depend on, and explore detection opportunities.",
+      "link": "https://www.elastic.co/security-labs/threat-command/exploring-windows-uac-bypasses-techniques-and-detection-strategies",
+      "published": "Mon, 15 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        15,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Detection Engineering"
+      ]
+    },
+    {
+      "id": "7400666a41cc",
+      "source": "Elastic Security Labs",
+      "title": "Now available: The LLM safety assessment",
+      "description": "Check out the newest report from Elastic Security Labs, which explores how you can protect your organization from LLM threats.",
+      "link": "https://www.elastic.co/security-labs/reports/elastic-security-labs-releases-llm-safety-report",
+      "published": "Sat, 06 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        6,
+        0,
+        0,
+        0
+      ],
+      "categories": []
+    },
+    {
+      "id": "8763ea6030ed",
+      "source": "Elastic Security Labs",
+      "title": "Elastic users protected from SUDDENICON\u2019s supply chain attack",
+      "description": "Elastic Security Labs is releasing a triage analysis to assist 3CX customers in the initial detection of SUDDENICON, a potential supply-chain compromise affecting 3CX VOIP softphone users.",
+      "link": "https://www.elastic.co/security-labs/threat-command/elastic-users-protected-from-suddenicon-supply-chain-attack",
+      "published": "Fri, 05 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        5,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "b2a41689ee49",
+      "source": "Elastic Security Labs",
+      "title": "Unpacking ICEDID",
+      "description": "ICEDID is known to pack its payloads using custom file formats and a custom encryption scheme. We are releasing a set of tools to automate the unpacking process and help analysts and the community respond to ICEDID.",
+      "link": "https://www.elastic.co/security-labs/blog/unpacking-icedid",
+      "published": "Thu, 04 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        4,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    },
+    {
+      "id": "8c6478f6e9d0",
+      "source": "Elastic Security Labs",
+      "title": "Click, Click\u2026 Boom! Automating Protections Testing with Detonate",
+      "description": "To automate this process and test our protections at scale, we built Detonate, a system that is used by security research engineers to measure the efficacy of our Elastic Security solution in an automated fashion.",
+      "link": "https://www.elastic.co/security-labs/blog/click-click-boom-automating-protections-testing-with-detonate",
+      "published": "Thu, 04 May 2023 00:00:00 GMT",
+      "published_sort": [
+        2023,
+        5,
+        4,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.695906+00:00"
+}

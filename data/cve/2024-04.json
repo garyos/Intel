@@ -1,0 +1,70 @@
+{
+  "month": "2024-04",
+  "cves": [
+    {
+      "id": "CVE-2024-1249",
+      "published": "2024-04-17T14:15:08.160",
+      "lastModified": "2026-09-08T20:17:25.350",
+      "vulnStatus": "Deferred",
+      "description": "A flaw was found in Keycloak's OIDC component in the \"checkLoginIframe,\" which allows unvalidated cross-origin messages. This flaw allows attackers to coordinate and send millions of requests in seconds using simple code, significantly impacting the application's availability without proper origin validation for incoming messages.",
+      "cvss": {
+        "score": 7.4,
+        "version": "3.1",
+        "severity": "HIGH"
+      },
+      "cwes": [
+        {
+          "id": "CWE-346",
+          "name": "CWE-346"
+        }
+      ],
+      "vendors": [
+        "Red Hat Red Hat AMQ Broker 7",
+        "Red Hat Red Hat build of Keycloak 22",
+        "Red Hat Red Hat build of Keycloak 22.0.10",
+        "Red Hat Red Hat Single Sign-On 7.6 for RHEL 7",
+        "Red Hat Red Hat Single Sign-On 7.6 for RHEL 8"
+      ],
+      "references": [
+        "https://access.redhat.com/errata/RHSA-2024:1860",
+        "https://access.redhat.com/errata/RHSA-2024:1861",
+        "https://access.redhat.com/errata/RHSA-2024:1862",
+        "https://access.redhat.com/errata/RHSA-2024:1864"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    },
+    {
+      "id": "CVE-2024-28056",
+      "published": "2024-04-15T18:15:10.723",
+      "lastModified": "2026-09-04T14:13:32.820",
+      "vulnStatus": "Analyzed",
+      "description": "Amazon AWS Amplify CLI before 12.10.1 incorrectly configures the role trust policy of IAM roles associated with Amplify projects. When the Authentication component is removed from an Amplify project, a Condition property is removed but \"Effect\":\"Allow\" remains present, and consequently sts:AssumeRoleWithWebIdentity would be available to threat actors with no conditions. Thus, if Amplify CLI had been used to remove the Authentication component from a project built between August 2019 and January ",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-276",
+          "name": "CWE-276"
+        }
+      ],
+      "vendors": [
+        "aws amplify_cli"
+      ],
+      "references": [
+        "https://aws.amazon.com/security/security-bulletins/AWS-2024-003/",
+        "https://github.com/aws-amplify/amplify-cli/blob/8ad57bf99a404f3c92547c8a175458016f682fac/packages/amplify-provider-awscloudformation/resources/update-idp-roles-cfn.json",
+        "https://github.com/aws-amplify/amplify-cli/commit/73b08dc424db2fb60399c5343c314e02e849d4a1",
+        "https://github.com/aws-amplify/amplify-cli/releases/tag/v12.10.1"
+      ],
+      "kev": {
+        "in_kev": false
+      }
+    }
+  ],
+  "updated_at": "2026-09-09T10:05:10.532560+00:00"
+}

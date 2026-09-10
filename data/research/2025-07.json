@@ -1,0 +1,82 @@
+{
+  "month": "2025-07",
+  "entries": [
+    {
+      "id": "8d6f52707896",
+      "source": "Elastic Security Labs",
+      "title": "MaaS Appeal: An Infostealer Rises From The Ashes",
+      "description": "NOVABLIGHT is a NodeJS infostealer developed and sold as a MaaS offering; it is used primarily to steal credentials and compromise cryptowallets.",
+      "link": "https://www.elastic.co/security-labs/threat-command/maas-appeal-an-infostealer-rises-from-the-ashes",
+      "published": "Tue, 29 Jul 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        7,
+        29,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "e08f02e9a4e0",
+      "source": "The DFIR Report",
+      "title": "KongTuke FileFix Leads to New Interlock RAT Variant",
+      "description": "Researchers from The DFIR Report, in partnership with Proofpoint, have identified a new and resilient variant of the Interlock ransomware group\u2019s remote access trojan (RAT). This new malware, a shift from the previously identified JavaScript-based Interlock RAT (aka NodeSnake), uses PHP and is being used in a widespread campaign. Since May 2025, activity related to [\u2026]",
+      "link": "https://thedfirreport.com/2025/07/14/kongtuke-filefix-leads-to-new-interlock-rat-variant/",
+      "published": "Mon, 14 Jul 2025 00:50:41 +0000",
+      "published_sort": [
+        2025,
+        7,
+        14,
+        0,
+        50,
+        41
+      ],
+      "categories": [
+        "Flash Alert"
+      ]
+    },
+    {
+      "id": "0840406d7418",
+      "source": "Elastic Security Labs",
+      "title": "Taking SHELLTER: a commercial evasion framework abused in-the-wild",
+      "description": "Elastic Security Labs detected the recent emergence of infostealers using an illicitly acquired version of the commercial evasion framework, SHELLTER, to deploy post-exploitation payloads.",
+      "link": "https://www.elastic.co/security-labs/threat-command/taking-shellter",
+      "published": "Thu, 03 Jul 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        7,
+        3,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Intelligence"
+      ]
+    },
+    {
+      "id": "ee44cafbed84",
+      "source": "Elastic Security Labs",
+      "title": "How AI and contextual search enhance defence cybersecurity",
+      "description": "Contextual search brings clarity, speed, and insight to defence security teams",
+      "link": "https://www.elastic.co/security-labs/blog/ai-contextual-search-defense-cybersecurity",
+      "published": "Wed, 02 Jul 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        7,
+        2,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "AI & Automation"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.691124+00:00"
+}

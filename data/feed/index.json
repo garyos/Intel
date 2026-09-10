@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-10T00:01:48.654931+00:00",
+  "months": [
+    {
+      "key": "2026-09",
+      "count": 221,
+      "latest_published": "Wed, 09 Sep 2026 23:56:05 +0530"
+    },
+    {
+      "key": "2026-08",
+      "count": 36,
+      "latest_published": "Wed, 26 Aug 2026 16:43:53 +0000"
+    },
+    {
+      "key": "2026-07",
+      "count": 7,
+      "latest_published": "Wed, 22 Jul 2026 01:10:38 +0000"
+    },
+    {
+      "key": "2026-06",
+      "count": 3,
+      "latest_published": "Wed, 17 Jun 2026 12:00:00 +0000"
+    },
+    {
+      "key": "2026-04",
+      "count": 8,
+      "latest_published": "Wed, 22 Apr 2026 12:00:00 +0000"
+    },
+    {
+      "key": "2026-03",
+      "count": 5,
+      "latest_published": "Wed, 25 Mar 2026 12:00:00 +0000"
+    }
+  ]
+}

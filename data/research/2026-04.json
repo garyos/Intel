@@ -1,0 +1,235 @@
+{
+  "month": "2026-04",
+  "entries": [
+    {
+      "id": "e52f1b4c8b7b",
+      "source": "Elastic Security Labs",
+      "title": "CI/CD pipeline abuse: the problem no one is watching",
+      "description": "How we built an open-source, drop-in CI template that uses signal extraction and LLM reasoning to catch CI/CD abuse in GitHub Actions, GitLab CI, and Azure DevOps pipelines.",
+      "link": "https://www.elastic.co/security-labs/threat-command/detecting-cicd-pipeline-abuse-with-llm-augmented-analysis",
+      "published": "Wed, 29 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        29,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Detection Engineering"
+      ]
+    },
+    {
+      "id": "5f530b49c2ee",
+      "source": "Elastic Security Labs",
+      "title": "Monitoring Claude Code/Cowork at scale with OTel in Elastic",
+      "description": "How Elastic's InfoSec team built a monitoring pipeline for Claude Code and Claude Cowork using their native OTel export capabilities and Elastic's OTel ingestion infrastructure.",
+      "link": "https://www.elastic.co/security-labs/blog/claude-code-cowork-monitoring-otel-elastic",
+      "published": "Sat, 25 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        25,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    },
+    {
+      "id": "5193d20e8136",
+      "source": "The DFIR Report",
+      "title": "Bissa Scanner Exposed: AI-Assisted Mass Exploitation and Credential Harvesting",
+      "description": "Key Takeaways We identified an exposed server that provided unusual visibility into a large-scale, multi-victim exploitation and collection operation. Artifacts on the host showed that Claude Code and OpenClaw were embedded in the operator\u2019s day-to-day workflow, supporting troubleshooting, orchestration, and refinement of the collection pipeline. This AI-assisted workflow resulted in the modular platform Bissa scanner [\u2026]",
+      "link": "https://thedfirreport.com/2026/04/22/bissa-scanner-exposed-ai-assisted-mass-exploitation-and-credential-harvesting/",
+      "published": "Wed, 22 Apr 2026 14:51:21 +0000",
+      "published_sort": [
+        2026,
+        4,
+        22,
+        14,
+        51,
+        21
+      ],
+      "categories": [
+        "opendir",
+        "Threat Actor Insights"
+      ]
+    },
+    {
+      "id": "d70abef0cd2d",
+      "source": "Elastic Security Labs",
+      "title": "The Cost of Understanding: LLM-Driven Reverse Engineering vs Iterative LLM Obfuscation",
+      "description": "Elastic Security Labs explores the ongoing arms race between LLM-driven reverse engineering and obfuscation.",
+      "link": "https://www.elastic.co/security-labs/threat-command/llm-reversing-vs-llm-obfuscation",
+      "published": "Tue, 21 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        21,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "AI Security"
+      ]
+    },
+    {
+      "id": "4ebcf6ad0e50",
+      "source": "Elastic Security Labs",
+      "title": "Phantom in the vault: Obsidian abused to deliver PhantomPulse RAT",
+      "description": "Elastic Security Labs uncovers a novel social engineering campaign that abuses the popular note-taking application, Obsidian's legitimate community plugin ecosystem. The campaign, which we track as REF6598, targets individuals in the financial and cryptocurrency sectors through elaborate social engineering on LinkedIn and Telegram.",
+      "link": "https://www.elastic.co/security-labs/threat-command/phantom-in-the-vault",
+      "published": "Tue, 14 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        14,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "6832c29720fa",
+      "source": "Elastic Security Labs",
+      "title": "Elastic on Defence Cyber Marvel 2026: A Technical overview from the Exercise Floor",
+      "description": "An overview of the Elastic Security and AI infrastructure deployed to support the UK Ministry of Defence's flagship cyber exercise, Defence Cyber Marvel 2026.",
+      "link": "https://www.elastic.co/security-labs/blog/elastic-defence-cyber-marvel",
+      "published": "Thu, 09 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Security Operations"
+      ]
+    },
+    {
+      "id": "1165e60fe3af",
+      "source": "Elastic Security Labs",
+      "title": "Elastic Security Integrations Roundup: Q1 2026",
+      "description": "Elastic Security Labs announces nine new integrations for Elastic Security spanning cloud security, endpoint visibility, email threat detection, identity and SIEM.",
+      "link": "https://www.elastic.co/security-labs/blog/elastic-security-integrations-roundup-q1-2026",
+      "published": "Sat, 04 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Integrations & Tools"
+      ]
+    },
+    {
+      "id": "bca750053dd8",
+      "source": "Elastic Security Labs",
+      "title": "Prioritizing Alerts Triage with Higher-Order Detection Rules",
+      "description": "Scaling SOC efficiency through multi-signal correlation and higher-order detection patterns.",
+      "link": "https://www.elastic.co/security-labs/blog/higher-order-detection-rules",
+      "published": "Thu, 02 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Hunting"
+      ]
+    },
+    {
+      "id": "7532b483ace5",
+      "source": "Elastic Security Labs",
+      "title": "Hooked on Linux: Rootkit Detection Engineering",
+      "description": "In this second part of a two-part series, we explore Linux rootkit detection engineering, focusing on the limitations of static detection reliance, and the importance of rootkit behavioral detection.",
+      "link": "https://www.elastic.co/security-labs/threat-command/linux-rootkits-2-caught-in-the-act",
+      "published": "Thu, 02 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "6a7b6aade4d7",
+      "source": "Elastic Security Labs",
+      "title": "How we caught the Axios supply chain attack",
+      "description": "Joe Desimone shares the story of how he caught the Axios supply chain attack with a proof of concept tool built in an afternoon.",
+      "link": "https://www.elastic.co/security-labs/threat-command/how-we-caught-the-axios-supply-chain-attack",
+      "published": "Thu, 02 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Intelligence"
+      ]
+    },
+    {
+      "id": "448347f057ba",
+      "source": "Elastic Security Labs",
+      "title": "Elastic releases detections for the Axios supply chain compromise",
+      "description": "Hunting and detection rules for the Elastic-discovered Axios supply chain compromise.",
+      "link": "https://www.elastic.co/security-labs/blog/axios-supply-chain-compromise-detections",
+      "published": "Wed, 01 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Threat Hunting"
+      ]
+    },
+    {
+      "id": "42d17592da0f",
+      "source": "Elastic Security Labs",
+      "title": "Inside the Axios supply chain compromise - one RAT to rule them all",
+      "description": "Elastic Security Labs analyzes a supply chain compromise of the axios npm package delivering a unified cross-platform RAT",
+      "link": "https://www.elastic.co/security-labs/threat-command/axios-one-rat-to-rule-them-all",
+      "published": "Wed, 01 Apr 2026 00:00:00 GMT",
+      "published_sort": [
+        2026,
+        4,
+        1,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.688994+00:00"
+}

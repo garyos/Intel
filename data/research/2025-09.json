@@ -1,0 +1,123 @@
+{
+  "month": "2025-09",
+  "entries": [
+    {
+      "id": "e9bbbe524522",
+      "source": "Elastic Security Labs",
+      "title": "FlipSwitch: a Novel Syscall Hooking Technique",
+      "description": "FlipSwitch offers a fresh look at bypassing Linux kernel defenses, revealing a new technique in the ongoing battle between cyber attackers and defenders.",
+      "link": "https://www.elastic.co/security-labs/threat-command/flipswitch-linux-rootkit",
+      "published": "Tue, 30 Sep 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        9,
+        30,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Platform Internals"
+      ]
+    },
+    {
+      "id": "8b33148220f9",
+      "source": "The DFIR Report",
+      "title": "From a Single Click: How Lunar Spider Enabled a Near Two-Month Intrusion",
+      "description": "Key Takeaways Private Threat Briefs: 20+ private DFIR reports annually. Contact us today for pricing or a demo! Table of Contents: Case Summary Analysts Initial Access Execution Persistence Privilege Escalation Defense Evasion Credential Access Discovery Lateral Movement Command and Control Exfiltration Impact Timeline Diamond Model Indicators Detections MITRE ATT&CK Case Summary The intrusion [\u2026]",
+      "link": "https://thedfirreport.com/2025/09/29/from-a-single-click-how-lunar-spider-enabled-a-near-two-month-intrusion/",
+      "published": "Mon, 29 Sep 2025 14:30:06 +0000",
+      "published_sort": [
+        2025,
+        9,
+        29,
+        14,
+        30,
+        6
+      ],
+      "categories": [
+        "bruteratel",
+        "cobaltstrike",
+        "latrodectus"
+      ]
+    },
+    {
+      "id": "f828afb78704",
+      "source": "Elastic Security Labs",
+      "title": "Elastic excels in AV-Comparatives EPR Test 2025: A closer look",
+      "description": "Elastic shares results of the 2025 AV Comparatives EPR test",
+      "link": "https://www.elastic.co/security-labs/reports/elastic-av-comparatives-epr-test-2025",
+      "published": "Mon, 22 Sep 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        9,
+        22,
+        0,
+        0,
+        0
+      ],
+      "categories": []
+    },
+    {
+      "id": "6a07576e1fe0",
+      "source": "Elastic Security Labs",
+      "title": "MCP Tools: Attack Vectors and Defense Recommendations for Autonomous Agents",
+      "description": "This research examines how Model Context Protocol (MCP) tools expand the attack surface for autonomous agents, detailing exploit vectors such as tool poisoning, orchestration injection, and rug-pull redefinitions alongside practical defense strategies.",
+      "link": "https://www.elastic.co/security-labs/threat-command/mcp-tools-attack-defense-recommendations",
+      "published": "Fri, 19 Sep 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        9,
+        19,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "AI Security"
+      ]
+    },
+    {
+      "id": "5bbfcf9953eb",
+      "source": "The DFIR Report",
+      "title": "Blurring the Lines: Intrusion Shows Connection With Three Major Ransomware Gangs",
+      "description": "Key Takeaways Private Threat Briefs: 20+ private DFIR reports annually. Contact us today for pricing or a demo! Table of Contents: Case Summary Analysts Initial Access Execution Persistence Privilege Escalation Defense Evasion Credential Access Discovery Lateral Movement Collection Command and Control Exfiltration Impact Timeline Diamond Model Indicators Detections MITRE ATT&CK Case Summary The intrusion began in [\u2026]",
+      "link": "https://thedfirreport.com/2025/09/08/blurring-the-lines-intrusion-shows-connection-with-three-major-ransomware-gangs/",
+      "published": "Mon, 08 Sep 2025 14:20:31 +0000",
+      "published_sort": [
+        2025,
+        9,
+        8,
+        14,
+        20,
+        31
+      ],
+      "categories": [
+        "dragonforce",
+        "play",
+        "ransomhub",
+        "sectoprat"
+      ]
+    },
+    {
+      "id": "64b11241438e",
+      "source": "Elastic Security Labs",
+      "title": "Investigating a Mysteriously Malformed Authenticode Signature",
+      "description": "An in-depth investigation tracing a Windows Authenticode validation failure from vague error codes to undocumented kernel routines.",
+      "link": "https://www.elastic.co/security-labs/threat-command/malformed-authenticode-signature",
+      "published": "Thu, 04 Sep 2025 00:00:00 GMT",
+      "published_sort": [
+        2025,
+        9,
+        4,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Platform Internals"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.690711+00:00"
+}

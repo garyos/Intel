@@ -1,0 +1,63 @@
+{
+  "month": "2024-12",
+  "entries": [
+    {
+      "id": "72b472304032",
+      "source": "Elastic Security Labs",
+      "title": "Under the SADBRIDGE with GOSAR: QUASAR Gets a Golang Rewrite",
+      "description": "Elastic Security Labs share details about the SADBRIDGE loader and GOSAR backdoor, malware used in campaigns targeting Chinese-speaking victims.",
+      "link": "https://www.elastic.co/security-labs/threat-command/under-the-sadbridge-with-gosar",
+      "published": "Fri, 13 Dec 2024 00:00:00 GMT",
+      "published_sort": [
+        2024,
+        12,
+        13,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "633e2b4442aa",
+      "source": "Elastic Security Labs",
+      "title": "Declawing PUMAKIT",
+      "description": "PUMAKIT is a sophisticated loadable kernel module (LKM) rootkit that employs advanced stealth mechanisms to hide its presence and maintain communication with command-and-control servers.",
+      "link": "https://www.elastic.co/security-labs/threat-command/declawing-pumakit",
+      "published": "Thu, 12 Dec 2024 00:00:00 GMT",
+      "published_sort": [
+        2024,
+        12,
+        12,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Malware Analysis"
+      ]
+    },
+    {
+      "id": "20ddf9d12ec2",
+      "source": "Elastic Security Labs",
+      "title": "Exploring AWS STS AssumeRoot",
+      "description": "Explore AWS STS AssumeRoot, its risks, detection strategies, and practical scenarios to secure against privilege escalation and account compromise using Elastic's SIEM and CloudTrail data.",
+      "link": "https://www.elastic.co/security-labs/blog/exploring-aws-sts-assumeroot",
+      "published": "Tue, 10 Dec 2024 00:00:00 GMT",
+      "published_sort": [
+        2024,
+        12,
+        10,
+        0,
+        0,
+        0
+      ],
+      "categories": [
+        "Cloud Security"
+      ]
+    }
+  ],
+  "updated_at": "2026-09-09T19:27:46.692569+00:00"
+}
