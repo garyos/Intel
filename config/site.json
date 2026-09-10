@@ -68,7 +68,7 @@
   "features": {
     "feed": {
       "enabled": true,
-      "max_items": null,
+      "max_items": 10,
       "publishers": {
         "The Hacker News": true,
         "Krebs on Security": true,
@@ -87,7 +87,7 @@
     "attack": { "enabled": true, "max_items": null },
     "leaktracker": { "enabled": true, "max_items": null },
     "negotiation": { "enabled": true, "max_items": null },
-    "podcast": { "enabled": true, "media_playback": true, "max_items": null },
+    "podcast": { "enabled": true, "media_playback": false, "max_items": null },
     "research": true,
     "reports": true,
     "dashboard": true,
