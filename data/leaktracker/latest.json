@@ -1,6 +1,78 @@
 {
-  "generated_at": "2026-11-27T17:01:09.609799+00:00",
+  "generated_at": "2026-11-28T15:51:10.985856+00:00",
   "victims": [
+    {
+      "id": "318113b72e2c5daa",
+      "victim": "Dirjen Imigrasi Hendarsam Marantoko membantah",
+      "group": "HYFLOCK",
+      "published": "2026-11-28T14:44:02+00:00",
+      "discovered": "2026-11-28T14:52:10.923809+00:00",
+      "country": "ID",
+      "sector": "Government & Defense",
+      "website": "imigrasi.go.id",
+      "description": "Director of the Immigration Bureau, get ready to resign. Please contact us as soon as possible to resolve this matter.\u2026",
+      "post_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795877042268275581_ln8MuMox"
+    },
+    {
+      "id": "45b32c64213e48e1",
+      "victim": "Servicios Integrales de Salud SiSalud",
+      "group": "rhysida",
+      "published": "2026-11-28T13:44:29.254244+00:00",
+      "discovered": "2026-11-28T13:44:57.027062+00:00",
+      "country": "MX",
+      "sector": "Healthcare",
+      "website": null,
+      "description": "Servicios Integrales de Salud SiSalud SiSalud is a private multi-specialty clinic in Caracas, Venezuela, providing 24/7 emergency care, outpatient consultations, laboratory and diagnostic imaging services, and surgical treatment. More",
+      "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=320"
+    },
+    {
+      "id": "de6d797c1d844f00",
+      "victim": "GAIA Group Srl",
+      "group": "payload",
+      "published": "2026-11-28T12:26:36.279460+00:00",
+      "discovered": "2026-11-28T12:27:40.008567+00:00",
+      "country": "IT",
+      "sector": "Other",
+      "website": null,
+      "description": "GAIA Group Srl is an Italian engineering and technology company specializing in 3D laser scanning, surveying, architectural measurements, and digital modeling. Founded in 1997, the company provides BIM services and surveying solutions for industrial facilities, infrastructure, buildings, and historical monuments, using advanced scanning technologies and drones. Its clients include both private and public sector organizations, with a core expertise in high-precision surveying and the creation of\u2026",
+      "post_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/5668effb-68bd-453d-8466-29008b416336"
+    },
+    {
+      "id": "040421cd6a1aab6f",
+      "victim": "Multotec",
+      "group": "rhysida",
+      "published": "2026-11-28T08:41:14.364463+00:00",
+      "discovered": "2026-11-28T08:41:39.008552+00:00",
+      "country": "ZA",
+      "sector": "Manufacturing",
+      "website": null,
+      "description": "Multotec Multotec.com (Multotec Canada, Longueuil, Quebec)259,791 files, 175.9 GB- Divorce and custody file, sworn declarations to 12/2025.- Confidential price lists and quotes 2025-2026 for 12 mine sites.- Agnico Eagle contract CAN-260-01-004; Northex/LONGi dispute; misconduct proof (WeChat).- Pan American Silver RMA incident; tax files 2022-2025. More",
+      "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=319"
+    },
+    {
+      "id": "e2854dc165f72a37",
+      "victim": "Samlut and Company, P.A.",
+      "group": "incransom",
+      "published": "2026-11-27T21:40:00+00:00",
+      "discovered": "2026-11-27T23:00:19.875313+00:00",
+      "country": "US",
+      "sector": "Professional Services",
+      "website": null,
+      "description": "Samlut & Company, PA is an American accounting and auditing firm founded in 1997.",
+      "post_url": null
+    },
+    {
+      "id": "be155c88924c1f1d",
+      "victim": "Cinelandia S.p.A",
+      "group": "incransom",
+      "published": "2026-11-27T20:31:00+00:00",
+      "discovered": "2026-11-27T21:46:09.068678+00:00",
+      "country": "IT",
+      "sector": "Hospitality",
+      "website": null,
+      "description": "Cinelandia S.p.A. is an Italian company that owns a large chain of modern multiplex cinemas and entertainment centers.",
+      "post_url": null
+    },
     {
       "id": "b4faebedd7cff78a",
       "victim": "Brit Ltd / Brit Insurance (britinsurance.com)",
@@ -178,6 +250,18 @@
       "country": "BE",
       "sector": "Education",
       "website": "www.thomasmore.edu",
+      "description": "N/A",
+      "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3789ad26-0881-435b-b6c2-2bae9e0008e1"
+    },
+    {
+      "id": "d372ec0e1c2701c8",
+      "victim": "Thomas More University of Applied Sciences",
+      "group": "qilin",
+      "published": "2026-11-27T00:00:00+00:00",
+      "discovered": "2026-11-28T03:44:02.468503+00:00",
+      "country": "BE",
+      "sector": "Education",
+      "website": "www.thomasmore.be",
       "description": "N/A",
       "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3789ad26-0881-435b-b6c2-2bae9e0008e1"
     },
@@ -396,90 +480,6 @@
       "website": null,
       "description": "Koch Law Firm Larry A. Koch, P.A., doing business as Koch Law Firm, is a private law practice in Chanhassen, Minnesota, serving companies, executives and families across Minneapolis and the Twin Cities metropolitan area. The firm was founded in 1993 by Larry A. Koch, J.D., LL.M., an attorney with more than thirty years of experience in business law and estate planning.The firm acts as outside general counsel to mid-sized and small companies. Its business practice covers business and securities\u2026",
       "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=314"
-    },
-    {
-      "id": "865ead3d2332f312",
-      "victim": "Grua, Freeman, Tupper & Young, PLC",
-      "group": "rhysida",
-      "published": "2026-11-26T09:37:45.579622+00:00",
-      "discovered": "2026-11-26T09:38:24.895714+00:00",
-      "country": null,
-      "sector": "Professional Services",
-      "website": null,
-      "description": "Grua, Freeman, Tupper & Young, PLC Grua, Freeman, Tupper & Young, PLC is a law firm based in Lansing, Michigan, at 2401 East Grand River Avenue. Founded in 1996 as a professional corporation, the firm serves individuals, families, small and mid-sized businesses, nonprofits and municipalities.The team includes seven attorneys - Remo Mark Grua, Timothy P. Young, Carrie S. Ihrig Freeman, Thomas M. Tupper, Brian M. Lum, Elizabeth M. Wilbur and Roger M. Smith - supported by of counsel attorneys,\u2026",
-      "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=315"
-    },
-    {
-      "id": "ad915d08933e293b",
-      "victim": "Indonesia's national passport database",
-      "group": "HYFLOCK",
-      "published": "2026-11-26T08:04:39+00:00",
-      "discovered": "2026-11-26T08:53:07.657955+00:00",
-      "country": "ID",
-      "sector": "Government & Defense",
-      "website": "imigrasi.go.id",
-      "description": "We hacked into Imigarasi's internal network and obtained information on over 90 million passports, as well as fingerprint data and biometric information. Feel free to follow us; we will consider selling the data rather than just releasing it randomly.If major security agencies suspect that our data is just for show, like questioning its authenticity, you can add me on our session, and I\u2019ll prove it to you. Especially checkpoint, I noticed you\u2019ve been quite rude to our organization, and I\u2019ll\u2026",
-      "post_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795680279469740880_wMpgzI58"
-    },
-    {
-      "id": "66e468d9b5dfd10b",
-      "victim": "Restaurant Brands International, Inc.",
-      "group": "Inception",
-      "published": "2026-11-26T01:52:26.730719+00:00",
-      "discovered": "2026-11-26T01:52:28.011805+00:00",
-      "country": "CA",
-      "sector": "Hospitality",
-      "website": null,
-      "description": "Contact us via Tox within 48 hours or your data will be available for download. 126,038 unique Burger King US customers, extracted live from the BK Guest Support Tool GraphQL API (names, contact, DOB, partial card data). 216,156 ServiceNow incident folders (RBI Guest Care). Each contains attachments (screenshots, emails, order data). Includes customer complaint records with order/payment details. Content shows guest-care cases across BK/Tims/Popeyes/Firehouse brands. RBI employee OneDrive. RBI\u2026",
-      "post_url": null
-    },
-    {
-      "id": "2d605a1f5e609ed9",
-      "victim": "Koh Young Technology",
-      "group": "everest",
-      "published": "2026-11-26T00:31:43.168666+00:00",
-      "discovered": "2026-11-26T02:06:32.189620+00:00",
-      "country": "KR",
-      "sector": "Manufacturing",
-      "website": null,
-      "description": "[AI generated] Koh Young Technology is a South Korean company specializing in 3D inspection and measurement solutions for the electronics manufacturing industry. Founded in 2002 and headquartered in Seoul, South Korea, it is known for developing Solder Paste Inspection (SPI) and Automated Optical Inspection (AOI) systems used in surface mount technology (SMT) production lines. The company also expands into medical robotics, serving semiconductor and electronics sectors globally.",
-      "post_url": "http://everestndkvzcibcje2cqxhre2hmmybl3rn2gwzwsblz7gx6uryn5rad.onion/news/koh-young-technology"
-    },
-    {
-      "id": "2631ef3af966ac93",
-      "victim": "Sweet Darling Sales",
-      "group": "qilin",
-      "published": "2026-11-26T00:00:00+00:00",
-      "discovered": "2026-11-26T16:20:17.846021+00:00",
-      "country": "US",
-      "sector": "Retail & E-Commerce",
-      "website": "www.sweetdarling.com",
-      "description": "N/A",
-      "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=2d9aecd6-2aff-4be3-9b09-965bd8f7da63"
-    },
-    {
-      "id": "a38d5b8c996b9e1f",
-      "victim": "Arlberger Bergbahnen AG",
-      "group": "aurora",
-      "published": "2026-11-26T00:00:00+00:00",
-      "discovered": "2026-11-26T15:55:38.667800+00:00",
-      "country": "AT",
-      "sector": "Hospitality",
-      "website": "Arlberger Bergbahnen AG",
-      "description": "[recreation] Arlberger Bergbahnen AG (ABB) \u2014 a cable-car and lift operator registered as FN 37028d at the Innsbruck Regional Court, headquartered at Kandaharweg 9, 6580 St. Anton am Arlberg, Tyrol, Austria, operating lifts, slopes and restaurants in the Ski Arlberg area since 1937 under the Cable Car Act (Seilbahngesetz), supervised by the Federal Ministry for Transport, the Tyrolean Regional Government and the Landeck District Authority, VAT ATU 31740300. The dataset comprises 144 GB across\u2026",
-      "post_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/arlberger-bergbahnen-ag-210ba639"
-    },
-    {
-      "id": "a3089c9911b2e7cd",
-      "victim": "AIM Consulting SA",
-      "group": "aurora",
-      "published": "2026-11-26T00:00:00+00:00",
-      "discovered": "2026-11-26T15:54:52.165682+00:00",
-      "country": null,
-      "sector": "Professional Services",
-      "website": "AIM Consulting SA",
-      "description": "[consulting] AIM Consulting SA \u2014 a Swiss managed IT-services provider (MSP) based in Ticino (Canobbio/Davesco Soragno, Strada Cantonale 11), operating domain aimconsulting.ch, serving approximately 60 client organisations across Ticino and northern Italy, including banks (Banca del Gottardo, Corner Banca, Banca dello Stato, Banca del Sempione, NBAD Private Bank Suisse), the Casin\u00f2 di Campione, public and energy-sector bodies (FOFT, EnergyPowerSwiss, liquidenergy), and dozens of SMEs. Corporate\u2026",
-      "post_url": "http://u6lieui2dakbctcjea2bz4r4q32r7t36nwljovqbv7mxs6o2smgxixid.onion/blog/aim-consulting-sa-15680bb0"
     }
   ]
 }

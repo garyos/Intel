@@ -2,6 +2,78 @@
   "month": "2026-11",
   "victims": [
     {
+      "id": "318113b72e2c5daa",
+      "victim": "Dirjen Imigrasi Hendarsam Marantoko membantah",
+      "group": "HYFLOCK",
+      "published": "2026-11-28T14:44:02+00:00",
+      "discovered": "2026-11-28T14:52:10.923809+00:00",
+      "country": "ID",
+      "sector": "Government & Defense",
+      "website": "imigrasi.go.id",
+      "description": "Director of the Immigration Bureau, get ready to resign. Please contact us as soon as possible to resolve this matter.\u2026",
+      "post_url": "http://yhgphvfgaecacgtlbn67u7yfhafe6evnj4gs4s2oyb3hzjnlhq45azqd.onion/blog/view/1795877042268275581_ln8MuMox"
+    },
+    {
+      "id": "45b32c64213e48e1",
+      "victim": "Servicios Integrales de Salud SiSalud",
+      "group": "rhysida",
+      "published": "2026-11-28T13:44:29.254244+00:00",
+      "discovered": "2026-11-28T13:44:57.027062+00:00",
+      "country": "MX",
+      "sector": "Healthcare",
+      "website": null,
+      "description": "Servicios Integrales de Salud SiSalud SiSalud is a private multi-specialty clinic in Caracas, Venezuela, providing 24/7 emergency care, outpatient consultations, laboratory and diagnostic imaging services, and surgical treatment. More",
+      "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=320"
+    },
+    {
+      "id": "de6d797c1d844f00",
+      "victim": "GAIA Group Srl",
+      "group": "payload",
+      "published": "2026-11-28T12:26:36.279460+00:00",
+      "discovered": "2026-11-28T12:27:40.008567+00:00",
+      "country": "IT",
+      "sector": "Other",
+      "website": null,
+      "description": "GAIA Group Srl is an Italian engineering and technology company specializing in 3D laser scanning, surveying, architectural measurements, and digital modeling. Founded in 1997, the company provides BIM services and surveying solutions for industrial facilities, infrastructure, buildings, and historical monuments, using advanced scanning technologies and drones. Its clients include both private and public sector organizations, with a core expertise in high-precision surveying and the creation of\u2026",
+      "post_url": "http://payloadrz5yw227brtbvdqpnlhq3rdcdekdnn3rgucbcdeawq2v6vuyd.onion/posts/5668effb-68bd-453d-8466-29008b416336"
+    },
+    {
+      "id": "040421cd6a1aab6f",
+      "victim": "Multotec",
+      "group": "rhysida",
+      "published": "2026-11-28T08:41:14.364463+00:00",
+      "discovered": "2026-11-28T08:41:39.008552+00:00",
+      "country": "ZA",
+      "sector": "Manufacturing",
+      "website": null,
+      "description": "Multotec Multotec.com (Multotec Canada, Longueuil, Quebec)259,791 files, 175.9 GB- Divorce and custody file, sworn declarations to 12/2025.- Confidential price lists and quotes 2025-2026 for 12 mine sites.- Agnico Eagle contract CAN-260-01-004; Northex/LONGi dispute; misconduct proof (WeChat).- Pan American Silver RMA incident; tax files 2022-2025. More",
+      "post_url": "http://rhysidafohrhyy2aszi7bm32tnjat5xri65fopcxkdfxhi4tidsg7cad.onion/archive.php?company=319"
+    },
+    {
+      "id": "e2854dc165f72a37",
+      "victim": "Samlut and Company, P.A.",
+      "group": "incransom",
+      "published": "2026-11-27T21:40:00+00:00",
+      "discovered": "2026-11-27T23:00:19.875313+00:00",
+      "country": "US",
+      "sector": "Professional Services",
+      "website": null,
+      "description": "Samlut & Company, PA is an American accounting and auditing firm founded in 1997.",
+      "post_url": null
+    },
+    {
+      "id": "be155c88924c1f1d",
+      "victim": "Cinelandia S.p.A",
+      "group": "incransom",
+      "published": "2026-11-27T20:31:00+00:00",
+      "discovered": "2026-11-27T21:46:09.068678+00:00",
+      "country": "IT",
+      "sector": "Hospitality",
+      "website": null,
+      "description": "Cinelandia S.p.A. is an Italian company that owns a large chain of modern multiplex cinemas and entertainment centers.",
+      "post_url": null
+    },
+    {
       "id": "b4faebedd7cff78a",
       "victim": "Brit Ltd / Brit Insurance (britinsurance.com)",
       "group": "incransom",
@@ -178,6 +250,18 @@
       "country": "BE",
       "sector": "Education",
       "website": "www.thomasmore.edu",
+      "description": "N/A",
+      "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3789ad26-0881-435b-b6c2-2bae9e0008e1"
+    },
+    {
+      "id": "d372ec0e1c2701c8",
+      "victim": "Thomas More University of Applied Sciences",
+      "group": "qilin",
+      "published": "2026-11-27T00:00:00+00:00",
+      "discovered": "2026-11-28T03:44:02.468503+00:00",
+      "country": "BE",
+      "sector": "Education",
+      "website": "www.thomasmore.be",
       "description": "N/A",
       "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=3789ad26-0881-435b-b6c2-2bae9e0008e1"
     },
@@ -1164,6 +1248,42 @@
       "website": "pacific-orient.com",
       "description": "Pacific & Orient started as a private limited company in 1994. It acquired Pacific & Orient Insurance (P&O Insurance), one of the largest Malaysian general insurers, and then went on to be listed on the Main Market of the Bursa Malaysia Securities Berhad in 1995.",
       "post_url": "http://vkvsgl7lhipjirmz6j5ubp3w3bwvxgcdbpi3fsbqngfynetqtw4w5hyd.onion/n/pacific-orient-com"
+    },
+    {
+      "id": "d3f57e0e81871ba4",
+      "victim": "Marietta Dermatology Associates, PA",
+      "group": "pear",
+      "published": "2026-11-25T00:00:00+00:00",
+      "discovered": "2026-11-28T09:51:37.365281+00:00",
+      "country": "US",
+      "sector": "Healthcare",
+      "website": "mariettaderm.com",
+      "description": "Leading dermatology provider in Northwest Georgia",
+      "post_url": "http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/mariettaderm"
+    },
+    {
+      "id": "66fcad77634e6d34",
+      "victim": "Konicom, Inc.",
+      "group": "pear",
+      "published": "2026-11-25T00:00:00+00:00",
+      "discovered": "2026-11-28T09:51:04.204030+00:00",
+      "country": "US",
+      "sector": "Not Found",
+      "website": "konicom.com",
+      "description": "Specializing in a wide range of computer services, including data recovery, networking solutions, and remote backup services",
+      "post_url": "http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/konicom"
+    },
+    {
+      "id": "b53026d22e3a8f66",
+      "victim": "McGlynn & McGlynn",
+      "group": "pear",
+      "published": "2026-11-25T00:00:00+00:00",
+      "discovered": "2026-11-28T09:50:31.225145+00:00",
+      "country": "US",
+      "sector": "Professional Services",
+      "website": "mcglynnandmcglynn.com",
+      "description": "Personal Injuries, Worker's Compensation, Civil Rights, Products Liability, Appellate Practice",
+      "post_url": "http://peargxn3oki34c4savcbcfqofjjwjnnyrlrbszfv6ujlx36mhrh57did.onion/Companies/mcglynnandmcglynn"
     },
     {
       "id": "e9046247ef4ebcca",
@@ -12266,6 +12386,18 @@
       "post_url": "http://lthicpjqc7gkn5eq3epxndc2uig3yngvcbdya4u3m3byjod5km4yuwqd.onion/#post/blog-34"
     },
     {
+      "id": "3da7500d8f01548c",
+      "victim": "NY Snacks",
+      "group": "play",
+      "published": "2026-11-05T00:00:00+00:00",
+      "discovered": "2026-11-10T19:41:23.235094+00:00",
+      "country": "US",
+      "sector": "Retail & E-Commerce",
+      "website": "www.nysnacks.com",
+      "description": "United States",
+      "post_url": "http://ipi4tiumgzjsym6pyuzrfqrtwskokxokqannmd6sa24shvr7x5kxdvqd.onion/topic.php?id=HtLidEly1VxLpW"
+    },
+    {
       "id": "236a344a1a12770c",
       "victim": "Msn",
       "group": "medusalocker",
@@ -14678,5 +14810,5 @@
       "post_url": "http://ijzn3sicrcy7guixkzjkib4ukbiilwc3xhnmby4mcbccnsd7j2rekvqd.onion/site/blog?uuid=f798ff42-e5ce-4083-aa53-6970b95c2e94"
     }
   ],
-  "updated_at": "2026-11-27T17:01:09.575058+00:00"
+  "updated_at": "2026-11-28T15:51:10.950556+00:00"
 }
