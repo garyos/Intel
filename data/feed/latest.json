@@ -12,8 +12,27 @@
     "NCSC UK"
   ],
   "failed_sources": [],
-  "fetched_at": "2026-11-28T03:49:04.891344+00:00",
+  "fetched_at": "2026-11-28T12:50:56.993233+00:00",
   "entries": [
+    {
+      "id": "ed56aac972a3",
+      "source": "The Hacker News",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "summary": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts. \"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "published": "Sat, 28 Nov 2026 13:38:11 +0530",
+      "published_sort": [
+        2026,
+        11,
+        28,
+        8,
+        8,
+        11
+      ],
+      "severity": "info",
+      "cves": [],
+      "tags": []
+    },
     {
       "id": "c33ac200edb1",
       "source": "BleepingComputer",
@@ -1487,25 +1506,6 @@
       "cves": [
         "CVE-2026-123903"
       ],
-      "tags": []
-    },
-    {
-      "id": "0c4445d4ccaf",
-      "source": "The Hacker News",
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team. The cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vishing) attacks to trick targets into entering credentials in phishing pages and approving",
-      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "published": "Tue, 24 Nov 2026 18:58:21 +0530",
-      "published_sort": [
-        2026,
-        11,
-        24,
-        13,
-        28,
-        21
-      ],
-      "severity": "info",
-      "cves": [],
       "tags": []
     },
     {
