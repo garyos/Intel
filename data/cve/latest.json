@@ -1,6 +1,51 @@
 {
-  "generated_at": "2026-11-27T15:29:41.939479+00:00",
+  "generated_at": "2026-11-28T14:27:43.268334+00:00",
   "cves": [
+    {
+      "id": "CVE-2026-133968",
+      "published": "2026-11-20T19:18:51.670",
+      "lastModified": "2026-11-24T15:17:20.847",
+      "vulnStatus": "Analyzed",
+      "description": "monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-24",
+          "name": "CWE-24"
+        }
+      ],
+      "vendors": [
+        "Project-MONIA MONAI Label"
+      ],
+      "references": [
+        "https://github.com/Project-MONAI/MONAILabel/pull/1915",
+        "https://github.com/Project-MONAI/MONAILabel/releases/tag/0.8.6",
+        "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94",
+        "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-11-23",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      },
+      "epss": {
+        "score": 0.6275,
+        "percentile": 0.99405,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
     {
       "id": "CVE-2026-116779",
       "published": "2026-11-05T20:17:44.790",
@@ -44,7 +89,7 @@
       "epss": {
         "score": 0.43693,
         "percentile": 0.99051,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -94,54 +139,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.31768,
-        "percentile": 0.98701,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-133968",
-      "published": "2026-11-20T19:18:51.670",
-      "lastModified": "2026-11-24T15:17:20.847",
-      "vulnStatus": "Analyzed",
-      "description": "monailabel (aka MONAI Label) before 0.8.6 allows directory traversal, with resultant remote code execution, via the image parameter to the PUT /datastore/image endpoint, as exploited in the wild starting in September 2026.",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-24",
-          "name": "CWE-24"
-        }
-      ],
-      "vendors": [
-        "Project-MONIA MONAI Label"
-      ],
-      "references": [
-        "https://github.com/Project-MONAI/MONAILabel/pull/1915",
-        "https://github.com/Project-MONAI/MONAILabel/releases/tag/0.8.6",
-        "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94",
-        "https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"
-      ],
-      "kev": {
-        "in_kev": true,
-        "date_added": "2026-11-23",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "known_ransomware": "Unknown"
-      },
-      "epss": {
-        "score": 0.27157,
-        "percentile": 0.98499,
-        "date": "2026-11-27"
+        "score": 0.33324,
+        "percentile": 0.98761,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -186,7 +186,7 @@
       "epss": {
         "score": 0.24159,
         "percentile": 0.98333,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -196,6 +196,51 @@
         ],
         "first_seen": "2026-11-18",
         "last_seen": "2026-11-21"
+      }
+    },
+    {
+      "id": "CVE-2026-132165",
+      "published": "2026-11-26T01:17:10.290",
+      "lastModified": "2026-11-27T15:25:22.903",
+      "vulnStatus": "Analyzed",
+      "description": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-306",
+          "name": "Missing Authentication for Critical Function"
+        }
+      ],
+      "vendors": [
+        "Drupal Drupal core"
+      ],
+      "references": [
+        "https://www.drupal.org/sa-core-2026-017",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-132165"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-11-24",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      },
+      "epss": {
+        "score": 0.13979,
+        "percentile": 0.97216,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": true,
+        "mention_count": 2,
+        "sources": [
+          "The Hacker News"
+        ],
+        "first_seen": "2026-11-25",
+        "last_seen": "2026-11-26"
       }
     },
     {
@@ -232,7 +277,7 @@
       "epss": {
         "score": 0.13801,
         "percentile": 0.97184,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -281,7 +326,7 @@
       "epss": {
         "score": 0.12579,
         "percentile": 0.96934,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -336,8 +381,8 @@
       },
       "epss": {
         "score": 0.08546,
-        "percentile": 0.95816,
-        "date": "2026-11-27"
+        "percentile": 0.95817,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -347,51 +392,6 @@
         ],
         "first_seen": "2026-11-12",
         "last_seen": "2026-11-12"
-      }
-    },
-    {
-      "id": "CVE-2026-132165",
-      "published": "2026-11-26T01:17:10.290",
-      "lastModified": "2026-11-27T15:25:22.903",
-      "vulnStatus": "Analyzed",
-      "description": "Missing Authentication for Critical Function vulnerability in Drupal Drupal core allows Exploiting Incorrectly Configured Access Control Security Levels. This issue affects Drupal core versions: from 0.0.0 to 10.6.22, from 11.0.0 to 11.3.22, from 11.4.0 to 11.4.13.",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-306",
-          "name": "Missing Authentication for Critical Function"
-        }
-      ],
-      "vendors": [
-        "Drupal Drupal core"
-      ],
-      "references": [
-        "https://www.drupal.org/sa-core-2026-017",
-        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-132165"
-      ],
-      "kev": {
-        "in_kev": true,
-        "date_added": "2026-11-24",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "known_ransomware": "Unknown"
-      },
-      "epss": {
-        "score": 0.08381,
-        "percentile": 0.95738,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": true,
-        "mention_count": 2,
-        "sources": [
-          "The Hacker News"
-        ],
-        "first_seen": "2026-11-25",
-        "last_seen": "2026-11-26"
       }
     },
     {
@@ -426,9 +426,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.05628,
-        "percentile": 0.9372,
-        "date": "2026-11-27"
+        "score": 0.07309,
+        "percentile": 0.95138,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -436,6 +436,51 @@
         "sources": [],
         "first_seen": null,
         "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-136716",
+      "published": "2026-11-26T01:17:10.517",
+      "lastModified": "2026-11-28T05:17:40.107",
+      "vulnStatus": "Modified",
+      "description": "Improper Check for Unusual or Exceptional Conditions vulnerability in Drupal Drupal core allows Forceful Browsing. This issue affects Drupal core versions: from 0.0.0 to 10.6.23, from 11.0.0 to 11.3.23, from 11.4.0 to 11.4.14.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-754",
+          "name": "CWE-754"
+        }
+      ],
+      "vendors": [
+        "Drupal Drupal core"
+      ],
+      "references": [
+        "https://www.drupal.org/sa-core-2026-019",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-136716"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-11-27",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      },
+      "epss": {
+        "score": 0.05461,
+        "percentile": 0.93526,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": true,
+        "mention_count": 1,
+        "sources": [
+          "The Hacker News"
+        ],
+        "first_seen": "2026-11-26",
+        "last_seen": "2026-11-26"
       }
     },
     {
@@ -473,8 +518,8 @@
       },
       "epss": {
         "score": 0.05009,
-        "percentile": 0.93025,
-        "date": "2026-11-27"
+        "percentile": 0.93028,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -519,8 +564,8 @@
       },
       "epss": {
         "score": 0.04238,
-        "percentile": 0.91803,
-        "date": "2026-11-27"
+        "percentile": 0.91806,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -567,8 +612,8 @@
       },
       "epss": {
         "score": 0.02695,
-        "percentile": 0.86662,
-        "date": "2026-11-27"
+        "percentile": 0.86666,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -610,9 +655,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.01326,
-        "percentile": 0.71112,
-        "date": "2026-11-27"
+        "score": 0.01551,
+        "percentile": 0.75456,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -654,8 +699,8 @@
       },
       "epss": {
         "score": 0.0078,
-        "percentile": 0.52461,
-        "date": "2026-11-27"
+        "percentile": 0.52469,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -702,8 +747,8 @@
       },
       "epss": {
         "score": 0.89631,
-        "percentile": 0.99861,
-        "date": "2026-11-27"
+        "percentile": 0.9986,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -754,8 +799,8 @@
       },
       "epss": {
         "score": 0.10795,
-        "percentile": 0.96573,
-        "date": "2026-11-27"
+        "percentile": 0.96574,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -799,8 +844,8 @@
       },
       "epss": {
         "score": 0.10202,
-        "percentile": 0.96406,
-        "date": "2026-11-27"
+        "percentile": 0.96407,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -846,8 +891,8 @@
       },
       "epss": {
         "score": 0.068,
-        "percentile": 0.94774,
-        "date": "2026-11-27"
+        "percentile": 0.94776,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -890,9 +935,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.01793,
-        "percentile": 0.7893,
-        "date": "2026-11-27"
+        "score": 0.0186,
+        "percentile": 0.79795,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -938,8 +983,8 @@
       },
       "epss": {
         "score": 0.01055,
-        "percentile": 0.63854,
-        "date": "2026-11-27"
+        "percentile": 0.63863,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -981,8 +1026,8 @@
       },
       "epss": {
         "score": 0.0054,
-        "percentile": 0.38965,
-        "date": "2026-11-27"
+        "percentile": 0.38969,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -1032,8 +1077,8 @@
       },
       "epss": {
         "score": 0.00232,
-        "percentile": 0.08425,
-        "date": "2026-11-27"
+        "percentile": 0.08427,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -1043,6 +1088,50 @@
         ],
         "first_seen": "2026-11-13",
         "last_seen": "2026-11-13"
+      }
+    },
+    {
+      "id": "CVE-2026-133311",
+      "published": "2026-11-19T17:18:52.740",
+      "lastModified": "2026-11-27T13:33:52.040",
+      "vulnStatus": "Analyzed",
+      "description": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker, with knowledge of a specific system-generated random identifier or pre-staged content, to conduct an unauthorized access attack due to improper authentication mechanisms. A successful exploit could allow an attacker to obtain sensitive information. The vulnerability is limited to the affected functionality and does not provide unrestricted ",
+      "cvss": {
+        "score": 5.9,
+        "version": "3.1",
+        "severity": "MEDIUM"
+      },
+      "cwes": [
+        {
+          "id": "CWE-1390",
+          "name": "CWE-1390"
+        }
+      ],
+      "vendors": [
+        "Mitel MiCollab"
+      ],
+      "references": [
+        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012",
+        "https://accenture.github.io/cyber-intelligence/micollab-exploitation/",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133311"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-11-25",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      },
+      "epss": {
+        "score": 0.01128,
+        "percentile": 0.66092,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
       }
     },
     {
@@ -1079,8 +1168,8 @@
       },
       "epss": {
         "score": 0.01042,
-        "percentile": 0.6338,
-        "date": "2026-11-27"
+        "percentile": 0.63392,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -1090,95 +1179,6 @@
         ],
         "first_seen": "2026-11-10",
         "last_seen": "2026-11-10"
-      }
-    },
-    {
-      "id": "CVE-2026-133311",
-      "published": "2026-11-19T17:18:52.740",
-      "lastModified": "2026-11-27T13:33:52.040",
-      "vulnStatus": "Analyzed",
-      "description": "A vulnerability in the Audio, Web, and Video Conferencing (AWV) component of Mitel MiCollab through 10.3 (10.3.0.18) could allow an unauthenticated attacker, with knowledge of a specific system-generated random identifier or pre-staged content, to conduct an unauthorized access attack due to improper authentication mechanisms. A successful exploit could allow an attacker to obtain sensitive information. The vulnerability is limited to the affected functionality and does not provide unrestricted ",
-      "cvss": {
-        "score": 5.9,
-        "version": "3.1",
-        "severity": "MEDIUM"
-      },
-      "cwes": [
-        {
-          "id": "CWE-1390",
-          "name": "CWE-1390"
-        }
-      ],
-      "vendors": [
-        "Mitel MiCollab"
-      ],
-      "references": [
-        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0012",
-        "https://accenture.github.io/cyber-intelligence/micollab-exploitation/",
-        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-133311"
-      ],
-      "kev": {
-        "in_kev": true,
-        "date_added": "2026-11-25",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "known_ransomware": "Unknown"
-      },
-      "epss": {
-        "score": 0.00985,
-        "percentile": 0.6122,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-118527",
-      "published": "2026-11-03T15:17:24.920",
-      "lastModified": "2026-11-03T17:48:12.873",
-      "vulnStatus": "Analyzed",
-      "description": "Use of predictable filenames in Ivanti Connect Secure before versions 25.1.1.3 and 22.8R2.6 allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.",
-      "cvss": {
-        "score": 4.3,
-        "version": "3.1",
-        "severity": "MEDIUM"
-      },
-      "cwes": [
-        {
-          "id": "CWE-340",
-          "name": "CWE-340"
-        }
-      ],
-      "vendors": [
-        "Ivanti Connect Secure"
-      ],
-      "references": [
-        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US",
-        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527"
-      ],
-      "kev": {
-        "in_kev": true,
-        "date_added": "2026-10-30",
-        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-        "known_ransomware": "Unknown"
-      },
-      "epss": {
-        "score": 0.00835,
-        "percentile": 0.55003,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": true,
-        "mention_count": 1,
-        "sources": [
-          "SecurityWeek"
-        ],
-        "first_seen": "2026-11-02",
-        "last_seen": "2026-11-02"
       }
     },
     {
@@ -1213,9 +1213,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.00832,
-        "percentile": 0.54848,
-        "date": "2026-11-27"
+        "score": 0.00973,
+        "percentile": 0.60806,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1257,9 +1257,9 @@
         "known_ransomware": "Unknown"
       },
       "epss": {
-        "score": 0.00771,
-        "percentile": 0.52094,
-        "date": "2026-11-27"
+        "score": 0.00903,
+        "percentile": 0.57817,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": true,
@@ -1269,6 +1269,51 @@
         ],
         "first_seen": "2026-11-26",
         "last_seen": "2026-11-26"
+      }
+    },
+    {
+      "id": "CVE-2026-118527",
+      "published": "2026-11-03T15:17:24.920",
+      "lastModified": "2026-11-03T17:48:12.873",
+      "vulnStatus": "Analyzed",
+      "description": "Use of predictable filenames in Ivanti Connect Secure before versions 25.1.1.3 and 22.8R2.6 allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.",
+      "cvss": {
+        "score": 4.3,
+        "version": "3.1",
+        "severity": "MEDIUM"
+      },
+      "cwes": [
+        {
+          "id": "CWE-340",
+          "name": "CWE-340"
+        }
+      ],
+      "vendors": [
+        "Ivanti Connect Secure"
+      ],
+      "references": [
+        "https://hub.ivanti.com/s/article/Security-Advisory-Ivanti-Connect-Secure-CVE-2026-104935?language=en_US",
+        "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-118527"
+      ],
+      "kev": {
+        "in_kev": true,
+        "date_added": "2026-10-30",
+        "required_action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "known_ransomware": "Unknown"
+      },
+      "epss": {
+        "score": 0.00835,
+        "percentile": 0.55013,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": true,
+        "mention_count": 1,
+        "sources": [
+          "SecurityWeek"
+        ],
+        "first_seen": "2026-11-02",
+        "last_seen": "2026-11-02"
       }
     },
     {
@@ -1300,7 +1345,7 @@
       "epss": {
         "score": 0.31794,
         "percentile": 0.98701,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1339,7 +1384,7 @@
       "epss": {
         "score": 0.26985,
         "percentile": 0.98491,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1381,7 +1426,7 @@
       "epss": {
         "score": 0.13743,
         "percentile": 0.97177,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1427,7 +1472,7 @@
       "epss": {
         "score": 0.10227,
         "percentile": 0.96412,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1435,6 +1480,50 @@
         "sources": [],
         "first_seen": null,
         "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-123903",
+      "published": "2026-11-26T11:17:00.283",
+      "lastModified": "2026-11-26T11:17:00.283",
+      "vulnStatus": "Received",
+      "description": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2 VMware vCenter Server 9.0.x.x: fixed in 9.0.2.0300 VMware vCenter Server 8.0: fixed in 8.0 U3m VMware Cloud Foundation 5.x: fixed in 5.2.5 VMware Telco Cloud Platform 3.0: fixed in KB463501 VMware Telco Cloud Pl",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-287",
+          "name": "Improper Authentication"
+        }
+      ],
+      "vendors": [
+        "VMware VMware vCenter Server",
+        "VMware VMware Cloud Foundation",
+        "VMware VMware Telco Cloud Platform",
+        "VMware VMware Telco Cloud Infrastructure"
+      ],
+      "references": [
+        "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39626"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.09228,
+        "percentile": 0.96092,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": true,
+        "mention_count": 1,
+        "sources": [
+          "The Hacker News"
+        ],
+        "first_seen": "2026-11-24",
+        "last_seen": "2026-11-24"
       }
     },
     {
@@ -1473,8 +1562,8 @@
       },
       "epss": {
         "score": 0.05025,
-        "percentile": 0.93044,
-        "date": "2026-11-27"
+        "percentile": 0.93046,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1519,8 +1608,8 @@
       },
       "epss": {
         "score": 0.04731,
-        "percentile": 0.92631,
-        "date": "2026-11-27"
+        "percentile": 0.92634,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1565,8 +1654,8 @@
       },
       "epss": {
         "score": 0.04292,
-        "percentile": 0.91906,
-        "date": "2026-11-27"
+        "percentile": 0.91908,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1611,8 +1700,8 @@
       },
       "epss": {
         "score": 0.04274,
-        "percentile": 0.91874,
-        "date": "2026-11-27"
+        "percentile": 0.91877,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1657,8 +1746,8 @@
       },
       "epss": {
         "score": 0.04274,
-        "percentile": 0.91874,
-        "date": "2026-11-27"
+        "percentile": 0.91876,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1696,8 +1785,8 @@
       },
       "epss": {
         "score": 0.04248,
-        "percentile": 0.91821,
-        "date": "2026-11-27"
+        "percentile": 0.91824,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1743,8 +1832,8 @@
       },
       "epss": {
         "score": 0.04203,
-        "percentile": 0.9174,
-        "date": "2026-11-27"
+        "percentile": 0.91743,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1789,8 +1878,8 @@
       },
       "epss": {
         "score": 0.04203,
-        "percentile": 0.9174,
-        "date": "2026-11-27"
+        "percentile": 0.91743,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1835,8 +1924,8 @@
       },
       "epss": {
         "score": 0.04203,
-        "percentile": 0.9174,
-        "date": "2026-11-27"
+        "percentile": 0.91743,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1881,8 +1970,8 @@
       },
       "epss": {
         "score": 0.04195,
-        "percentile": 0.91724,
-        "date": "2026-11-27"
+        "percentile": 0.91727,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1920,8 +2009,8 @@
       },
       "epss": {
         "score": 0.04144,
-        "percentile": 0.91625,
-        "date": "2026-11-27"
+        "percentile": 0.91628,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1969,8 +2058,8 @@
       },
       "epss": {
         "score": 0.0414,
-        "percentile": 0.91616,
-        "date": "2026-11-27"
+        "percentile": 0.91619,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2008,8 +2097,8 @@
       },
       "epss": {
         "score": 0.03876,
-        "percentile": 0.90981,
-        "date": "2026-11-27"
+        "percentile": 0.90984,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2054,8 +2143,8 @@
       },
       "epss": {
         "score": 0.03702,
-        "percentile": 0.90525,
-        "date": "2026-11-27"
+        "percentile": 0.90534,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2100,8 +2189,8 @@
       },
       "epss": {
         "score": 0.03702,
-        "percentile": 0.90525,
-        "date": "2026-11-27"
+        "percentile": 0.90532,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2146,8 +2235,8 @@
       },
       "epss": {
         "score": 0.03643,
-        "percentile": 0.90358,
-        "date": "2026-11-27"
+        "percentile": 0.9036,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2192,8 +2281,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90283,
-        "date": "2026-11-27"
+        "percentile": 0.90291,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2241,8 +2330,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90287,
-        "date": "2026-11-27"
+        "percentile": 0.90285,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2287,8 +2376,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90284,
-        "date": "2026-11-27"
+        "percentile": 0.90286,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2333,8 +2422,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90288,
-        "date": "2026-11-27"
+        "percentile": 0.90285,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2379,8 +2468,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90284,
-        "date": "2026-11-27"
+        "percentile": 0.90286,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2425,8 +2514,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90287,
-        "date": "2026-11-27"
+        "percentile": 0.90286,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2471,8 +2560,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90287,
-        "date": "2026-11-27"
+        "percentile": 0.90286,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2517,8 +2606,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90288,
-        "date": "2026-11-27"
+        "percentile": 0.90287,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2563,8 +2652,8 @@
       },
       "epss": {
         "score": 0.03616,
-        "percentile": 0.90284,
-        "date": "2026-11-27"
+        "percentile": 0.90288,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2602,8 +2691,8 @@
       },
       "epss": {
         "score": 0.03572,
-        "percentile": 0.90146,
-        "date": "2026-11-27"
+        "percentile": 0.90149,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2648,8 +2737,8 @@
       },
       "epss": {
         "score": 0.03561,
-        "percentile": 0.90116,
-        "date": "2026-11-27"
+        "percentile": 0.90119,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2694,8 +2783,8 @@
       },
       "epss": {
         "score": 0.0339,
-        "percentile": 0.89594,
-        "date": "2026-11-27"
+        "percentile": 0.89597,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2740,8 +2829,8 @@
       },
       "epss": {
         "score": 0.0339,
-        "percentile": 0.89595,
-        "date": "2026-11-27"
+        "percentile": 0.89596,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2779,8 +2868,54 @@
       },
       "epss": {
         "score": 0.03348,
-        "percentile": 0.89448,
-        "date": "2026-11-27"
+        "percentile": 0.89451,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-138005",
+      "published": "2026-11-28T10:17:00.010",
+      "lastModified": "2026-11-28T10:17:00.417",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was detected in TRENDnet TEW-751DR 1.03B01. Affected by this vulnerability is the function gena.php::GENA_notify_init of the file htdocs/upnpinc/gena.php of the component UPnP Event Handler. Performing a manipulation of the argument uri results in os command injection. It is possible to initiate the attack remotely. The exploit is now public and may be used.",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        },
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "TRENDnet TEW-751DR"
+      ],
+      "references": [
+        "https://gist.github.com/qwq-nm/70b4fd27c21fd32e68f929261c01757f",
+        "https://vuldb.com/cve/CVE-2026-138005",
+        "https://vuldb.com/submit/1066878",
+        "https://vuldb.com/vuln/444940"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.03253,
+        "percentile": 0.89127,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2818,8 +2953,48 @@
       },
       "epss": {
         "score": 0.03232,
-        "percentile": 0.89036,
-        "date": "2026-11-27"
+        "percentile": 0.89038,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-137721",
+      "published": "2026-11-27T06:17:09.443",
+      "lastModified": "2026-11-27T16:18:06.850",
+      "vulnStatus": "Received",
+      "description": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This vulnerability affects OpenScape 4000, versions V11 R0.22 through V11 R2.11 and V10 R1.68 and earlier, and OpenScape 4000 Manager, versions V11 R0.22 through V11 R2.11 and V10 R1.34 throug",
+      "cvss": {
+        "score": 10.0,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "Mitel OpenScape 4000",
+        "Mitel OpenScape 4000 Manager"
+      ],
+      "references": [
+        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0013"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.03226,
+        "percentile": 0.8902,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2864,8 +3039,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88951,
-        "date": "2026-11-27"
+        "percentile": 0.88955,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2910,8 +3085,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88949,
-        "date": "2026-11-27"
+        "percentile": 0.88953,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -2956,8 +3131,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88949,
-        "date": "2026-11-27"
+        "percentile": 0.88952,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3002,8 +3177,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88951,
-        "date": "2026-11-27"
+        "percentile": 0.88952,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3048,8 +3223,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.8895,
-        "date": "2026-11-27"
+        "percentile": 0.88955,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3094,8 +3269,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88952,
-        "date": "2026-11-27"
+        "percentile": 0.88954,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3140,8 +3315,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88952,
-        "date": "2026-11-27"
+        "percentile": 0.88953,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3186,8 +3361,8 @@
       },
       "epss": {
         "score": 0.03212,
-        "percentile": 0.88949,
-        "date": "2026-11-27"
+        "percentile": 0.88951,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3228,8 +3403,8 @@
       },
       "epss": {
         "score": 0.03208,
-        "percentile": 0.88932,
-        "date": "2026-11-27"
+        "percentile": 0.88935,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3242,7 +3417,7 @@
     {
       "id": "CVE-2026-134882",
       "published": "2026-11-23T09:17:05.653",
-      "lastModified": "2026-11-23T09:17:05.840",
+      "lastModified": "2026-11-28T03:17:03.990",
       "vulnStatus": "Deferred",
       "description": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be carried out remotely.",
       "cvss": {
@@ -3274,8 +3449,8 @@
       },
       "epss": {
         "score": 0.032,
-        "percentile": 0.88896,
-        "date": "2026-11-27"
+        "percentile": 0.88899,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3320,8 +3495,8 @@
       },
       "epss": {
         "score": 0.03082,
-        "percentile": 0.88439,
-        "date": "2026-11-27"
+        "percentile": 0.88442,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3366,8 +3541,353 @@
       },
       "epss": {
         "score": 0.03073,
-        "percentile": 0.88404,
-        "date": "2026-11-27"
+        "percentile": 0.88407,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-136550",
+      "published": "2026-11-25T06:17:15.807",
+      "lastModified": "2026-11-25T06:17:15.960",
+      "vulnStatus": "Deferred",
+      "description": "A weakness has been identified in Tenda RX3 16.03.13.11_multi. This affects the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. This manipulation of the argument mac causes command injection. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
+      "cvss": {
+        "score": 9.1,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-74",
+          "name": "CWE-74"
+        },
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        }
+      ],
+      "vendors": [
+        "Tenda RX3"
+      ],
+      "references": [
+        "https://github.com/Zeyfrost/tenda-rx3-vulns/blob/master/cmd_injection_mac/detail.md",
+        "https://vuldb.com/cve/CVE-2026-136550",
+        "https://vuldb.com/submit/1057768",
+        "https://vuldb.com/vuln/443408"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.03022,
+        "percentile": 0.88205,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-124577",
+      "published": "2026-11-09T08:17:02.350",
+      "lastModified": "2026-11-12T19:16:52.700",
+      "vulnStatus": "Deferred",
+      "description": "A weakness has been identified in Intelbras SG 2404 PoE L2+ 1.00.70/1.00.72. The affected element is an unknown function of the file /EXCU_SHELL of the component Web Management Interface. Executing a manipulation can lead to improper authentication. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 1.00.74 is sufficient to fix this issue. Upgrading the affected component is advised.",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-287",
+          "name": "Improper Authentication"
+        }
+      ],
+      "vendors": [
+        "Intelbras SG 2404 PoE L2+"
+      ],
+      "references": [
+        "https://vuldb.com/cve/CVE-2026-124577",
+        "https://vuldb.com/submit/1038184",
+        "https://vuldb.com/vuln/432923",
+        "https://vuldb.com/vuln/432923/cti"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02962,
+        "percentile": 0.87967,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-103782",
+      "published": "2026-11-23T16:17:25.380",
+      "lastModified": "2026-11-23T17:17:27.310",
+      "vulnStatus": "Awaiting Analysis",
+      "description": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an Argument Injection vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution and unauthorized access to filesystem resources.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-88",
+          "name": "Argument Injection"
+        }
+      ],
+      "vendors": [
+        "Dell Enterprise Sonic Distributio"
+      ],
+      "references": [
+        "https://www.dell.com/support/kbdoc/en-us/000535884/dsa-2026-451-security-update-for-dell-enterprise-sonic-distribution-vulnerabilities"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02786,
+        "percentile": 0.87144,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-124450",
+      "published": "2026-11-08T14:18:12.260",
+      "lastModified": "2026-11-23T21:06:03.750",
+      "vulnStatus": "Analyzed",
+      "description": "OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary files as the web user, enabling remote code execution.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-73",
+          "name": "CWE-73"
+        }
+      ],
+      "vendors": [
+        "openemr openemr"
+      ],
+      "references": [
+        "https://github.com/openemr/openemr/security/advisories/GHSA-wf4w-mx2w-j4vv",
+        "https://www.vulncheck.com/advisories/openemr-before-8.3.0-arbitrary-file-read-write-via-disposedocument"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02712,
+        "percentile": 0.86751,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-135202",
+      "published": "2026-11-24T06:17:08.080",
+      "lastModified": "2026-11-24T17:18:19.513",
+      "vulnStatus": "Deferred",
+      "description": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion \u2013 Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync \u2013 Airtable to WordPress) contain embedded malicious code (a backdoor) in the versions listed. The affected releases unconditionally load a backdoor module (includes/airwp-online.php) that runs on every request via the 'init' hook and on a",
+      "cvss": {
+        "score": 9.8,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-506",
+          "name": "CWE-506"
+        }
+      ],
+      "vendors": [
+        "wpconnectco Orders Sync to Airtable for WooCommerce",
+        "wpconnectco Add-On for Contact Form 7 to Notion",
+        "wpconnectco WP Sync for Notion \u2013 Notion to WordPress",
+        "wpconnectco Add-On for Contact Form 7 to Airtable",
+        "wpconnectco Add-on Brevo for Gravity Forms"
+      ],
+      "references": [
+        "https://plugins.trac.wordpress.org/browser/add-on-cf7-for-airtable/tags/2.5.4/includes/airwp-online.php#L258",
+        "https://plugins.trac.wordpress.org/browser/add-on-cf7-for-notion/tags/1.6.4/includes/airwp-online.php#L258",
+        "https://plugins.trac.wordpress.org/browser/addon-gravityforms-sendinblue-free/tags/2.6.3/includes/airwp-online.php#L258",
+        "https://plugins.trac.wordpress.org/browser/air-wp-sync/tags/2.9.4/includes/airwp-online.php#L258"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02672,
+        "percentile": 0.86529,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-135788",
+      "published": "2026-11-24T17:18:43.250",
+      "lastModified": "2026-11-28T04:17:05.477",
+      "vulnStatus": "Deferred",
+      "description": "A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability is an unknown functionality of the file /usr/sbin/anweb. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been made available to the public and could be used for attacks.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        },
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "D-Link DIR-X1860"
+      ],
+      "references": [
+        "https://github.com/nenghun/IoT/blob/main/D-Link%20DIR%20X1860/D-Link%20DIR-X1860%204.5.2%20rce.md",
+        "https://vuldb.com/cve/CVE-2026-135788",
+        "https://vuldb.com/submit/1055809",
+        "https://vuldb.com/vuln/442751"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02643,
+        "percentile": 0.86341,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-137723",
+      "published": "2026-11-27T06:17:09.587",
+      "lastModified": "2026-11-27T06:17:09.587",
+      "vulnStatus": "Received",
+      "description": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This vulnerability affects OpenScape 4000, versions V11 R0.22 through V11 R2.11 and V10 R1.68 and earlier, and OpenScape 4000 Manager, versions V11 R0.22 through V11 R2.11 and V10 R1.34 throug",
+      "cvss": {
+        "score": 9.6,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "Mitel OpenScape 4000",
+        "Mitel OpenScape 4000 Manager"
+      ],
+      "references": [
+        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0013"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02627,
+        "percentile": 0.86256,
+        "date": "2026-11-28"
+      },
+      "media": {
+        "in_news": false,
+        "mention_count": 0,
+        "sources": [],
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    {
+      "id": "CVE-2026-133680",
+      "published": "2026-11-20T20:17:35.750",
+      "lastModified": "2026-11-20T20:17:35.970",
+      "vulnStatus": "Deferred",
+      "description": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
+      "cvss": {
+        "score": 9.9,
+        "version": "3.1",
+        "severity": "CRITICAL"
+      },
+      "cwes": [
+        {
+          "id": "CWE-77",
+          "name": "Command Injection"
+        },
+        {
+          "id": "CWE-78",
+          "name": "OS Command Injection"
+        }
+      ],
+      "vendors": [
+        "D-Link DCS-935L"
+      ],
+      "references": [
+        "https://github.com/roit-wolf/CVE/",
+        "https://vuldb.com/cve/CVE-2026-133680",
+        "https://vuldb.com/submit/1051805",
+        "https://vuldb.com/vuln/441406"
+      ],
+      "kev": {
+        "in_kev": false
+      },
+      "epss": {
+        "score": 0.02622,
+        "percentile": 0.86224,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3415,348 +3935,9 @@
         "in_kev": false
       },
       "epss": {
-        "score": 0.03043,
-        "percentile": 0.88278,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-136550",
-      "published": "2026-11-25T06:17:15.807",
-      "lastModified": "2026-11-25T06:17:15.960",
-      "vulnStatus": "Deferred",
-      "description": "A weakness has been identified in Tenda RX3 16.03.13.11_multi. This affects the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. This manipulation of the argument mac causes command injection. The attack is possible to be carried out remotely. The exploit has been made available to the public and could be used for attacks.",
-      "cvss": {
-        "score": 9.1,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-74",
-          "name": "CWE-74"
-        },
-        {
-          "id": "CWE-77",
-          "name": "Command Injection"
-        }
-      ],
-      "vendors": [
-        "Tenda RX3"
-      ],
-      "references": [
-        "https://github.com/Zeyfrost/tenda-rx3-vulns/blob/master/cmd_injection_mac/detail.md",
-        "https://vuldb.com/cve/CVE-2026-136550",
-        "https://vuldb.com/submit/1057768",
-        "https://vuldb.com/vuln/443408"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.03022,
-        "percentile": 0.88202,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-124577",
-      "published": "2026-11-09T08:17:02.350",
-      "lastModified": "2026-11-12T19:16:52.700",
-      "vulnStatus": "Deferred",
-      "description": "A weakness has been identified in Intelbras SG 2404 PoE L2+ 1.00.70/1.00.72. The affected element is an unknown function of the file /EXCU_SHELL of the component Web Management Interface. Executing a manipulation can lead to improper authentication. The attack can be launched remotely. The exploit has been made available to the public and could be used for attacks. Upgrading to version 1.00.74 is sufficient to fix this issue. Upgrading the affected component is advised.",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-287",
-          "name": "Improper Authentication"
-        }
-      ],
-      "vendors": [
-        "Intelbras SG 2404 PoE L2+"
-      ],
-      "references": [
-        "https://vuldb.com/cve/CVE-2026-124577",
-        "https://vuldb.com/submit/1038184",
-        "https://vuldb.com/vuln/432923",
-        "https://vuldb.com/vuln/432923/cti"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02962,
-        "percentile": 0.87965,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-137721",
-      "published": "2026-11-27T06:17:09.443",
-      "lastModified": "2026-11-27T06:17:09.443",
-      "vulnStatus": "Received",
-      "description": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This vulnerability affects OpenScape 4000, versions V11 R0.22 through V11 R2.11 and V10 R1.68 and earlier, and OpenScape 4000 Manager, versions V11 R0.22 through V11 R2.11 and V10 R1.34 throug",
-      "cvss": {
-        "score": 10.0,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-78",
-          "name": "OS Command Injection"
-        }
-      ],
-      "vendors": [
-        "Mitel OpenScape 4000",
-        "Mitel OpenScape 4000 Manager"
-      ],
-      "references": [
-        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0013"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02801,
-        "percentile": 0.87208,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-103782",
-      "published": "2026-11-23T16:17:25.380",
-      "lastModified": "2026-11-23T17:17:27.310",
-      "vulnStatus": "Awaiting Analysis",
-      "description": "Dell Enterprise Sonic Distribution, versions prior to 4.6.1, contains an Argument Injection vulnerability. A low privileged remote attacker could potentially exploit this vulnerability, leading to arbitrary command execution and unauthorized access to filesystem resources.",
-      "cvss": {
-        "score": 9.9,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-88",
-          "name": "Argument Injection"
-        }
-      ],
-      "vendors": [
-        "Dell Enterprise Sonic Distributio"
-      ],
-      "references": [
-        "https://www.dell.com/support/kbdoc/en-us/000535884/dsa-2026-451-security-update-for-dell-enterprise-sonic-distribution-vulnerabilities"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02786,
-        "percentile": 0.87141,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-124450",
-      "published": "2026-11-08T14:18:12.260",
-      "lastModified": "2026-11-23T21:06:03.750",
-      "vulnStatus": "Analyzed",
-      "description": "OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary files as the web user, enabling remote code execution.",
-      "cvss": {
-        "score": 9.9,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-73",
-          "name": "CWE-73"
-        }
-      ],
-      "vendors": [
-        "openemr openemr"
-      ],
-      "references": [
-        "https://github.com/openemr/openemr/security/advisories/GHSA-wf4w-mx2w-j4vv",
-        "https://www.vulncheck.com/advisories/openemr-before-8.3.0-arbitrary-file-read-write-via-disposedocument"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02712,
-        "percentile": 0.86747,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-135202",
-      "published": "2026-11-24T06:17:08.080",
-      "lastModified": "2026-11-24T17:18:19.513",
-      "vulnStatus": "Deferred",
-      "description": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion \u2013 Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync \u2013 Airtable to WordPress) contain embedded malicious code (a backdoor) in the versions listed. The affected releases unconditionally load a backdoor module (includes/airwp-online.php) that runs on every request via the 'init' hook and on a",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-506",
-          "name": "CWE-506"
-        }
-      ],
-      "vendors": [
-        "wpconnectco Orders Sync to Airtable for WooCommerce",
-        "wpconnectco Add-On for Contact Form 7 to Notion",
-        "wpconnectco WP Sync for Notion \u2013 Notion to WordPress",
-        "wpconnectco Add-On for Contact Form 7 to Airtable",
-        "wpconnectco Add-on Brevo for Gravity Forms"
-      ],
-      "references": [
-        "https://plugins.trac.wordpress.org/browser/add-on-cf7-for-airtable/tags/2.5.4/includes/airwp-online.php#L258",
-        "https://plugins.trac.wordpress.org/browser/add-on-cf7-for-notion/tags/1.6.4/includes/airwp-online.php#L258",
-        "https://plugins.trac.wordpress.org/browser/addon-gravityforms-sendinblue-free/tags/2.6.3/includes/airwp-online.php#L258",
-        "https://plugins.trac.wordpress.org/browser/air-wp-sync/tags/2.9.4/includes/airwp-online.php#L258"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02672,
-        "percentile": 0.86525,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-137723",
-      "published": "2026-11-27T06:17:09.587",
-      "lastModified": "2026-11-27T06:17:09.587",
-      "vulnStatus": "Received",
-      "description": "A vulnerability in the Platform component of Mitel OpenScape 4000 and OpenScape 4000 Manager could allow an attacker to conduct a command injection attack due to insufficient parameter sanitization. A successful exploit could allow an attacker to execute arbitrary commands within the context of the system. This vulnerability affects OpenScape 4000, versions V11 R0.22 through V11 R2.11 and V10 R1.68 and earlier, and OpenScape 4000 Manager, versions V11 R0.22 through V11 R2.11 and V10 R1.34 throug",
-      "cvss": {
-        "score": 9.6,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-78",
-          "name": "OS Command Injection"
-        }
-      ],
-      "vendors": [
-        "Mitel OpenScape 4000",
-        "Mitel OpenScape 4000 Manager"
-      ],
-      "references": [
-        "https://www.mitel.com/support/security-advisories/mitel-product-security-advisory-misa-2026-0013"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02627,
-        "percentile": 0.86251,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-133680",
-      "published": "2026-11-20T20:17:35.750",
-      "lastModified": "2026-11-20T20:17:35.970",
-      "vulnStatus": "Deferred",
-      "description": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote exploitation of the attack is possible. The exploit has been made public and could be used.",
-      "cvss": {
-        "score": 9.9,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-77",
-          "name": "Command Injection"
-        },
-        {
-          "id": "CWE-78",
-          "name": "OS Command Injection"
-        }
-      ],
-      "vendors": [
-        "D-Link DCS-935L"
-      ],
-      "references": [
-        "https://github.com/roit-wolf/CVE/",
-        "https://vuldb.com/cve/CVE-2026-133680",
-        "https://vuldb.com/submit/1051805",
-        "https://vuldb.com/vuln/441406"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02622,
-        "percentile": 0.8622,
-        "date": "2026-11-27"
+        "score": 0.0262,
+        "percentile": 0.86214,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3797,8 +3978,8 @@
       },
       "epss": {
         "score": 0.0259,
-        "percentile": 0.86041,
-        "date": "2026-11-27"
+        "percentile": 0.86045,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3843,8 +4024,8 @@
       },
       "epss": {
         "score": 0.02545,
-        "percentile": 0.8575,
-        "date": "2026-11-27"
+        "percentile": 0.85754,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3882,8 +4063,8 @@
       },
       "epss": {
         "score": 0.02531,
-        "percentile": 0.85655,
-        "date": "2026-11-27"
+        "percentile": 0.85659,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3922,8 +4103,8 @@
       },
       "epss": {
         "score": 0.02509,
-        "percentile": 0.85502,
-        "date": "2026-11-27"
+        "percentile": 0.85506,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3968,8 +4149,8 @@
       },
       "epss": {
         "score": 0.02466,
-        "percentile": 0.85216,
-        "date": "2026-11-27"
+        "percentile": 0.8522,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -3977,50 +4158,6 @@
         "sources": [],
         "first_seen": null,
         "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-123903",
-      "published": "2026-11-26T11:17:00.283",
-      "lastModified": "2026-11-26T11:17:00.283",
-      "vulnStatus": "Received",
-      "description": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service. Broadcom has evaluated the severity of this issue to be in the Critical severity range with a maximum CVSSv3 base score of 9.8. Affected versions: VMware vCenter Server 9.1.x.x: fixed in 9.1.2 VMware vCenter Server 9.0.x.x: fixed in 9.0.2.0300 VMware vCenter Server 8.0: fixed in 8.0 U3m VMware Cloud Foundation 5.x: fixed in 5.2.5 VMware Telco Cloud Platform 3.0: fixed in KB463501 VMware Telco Cloud Pl",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-287",
-          "name": "Improper Authentication"
-        }
-      ],
-      "vendors": [
-        "VMware VMware vCenter Server",
-        "VMware VMware Cloud Foundation",
-        "VMware VMware Telco Cloud Platform",
-        "VMware VMware Telco Cloud Infrastructure"
-      ],
-      "references": [
-        "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/39626"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02446,
-        "percentile": 0.85082,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": true,
-        "mention_count": 1,
-        "sources": [
-          "The Hacker News"
-        ],
-        "first_seen": "2026-11-24",
-        "last_seen": "2026-11-24"
       }
     },
     {
@@ -4051,8 +4188,8 @@
       },
       "epss": {
         "score": 0.02445,
-        "percentile": 0.8507,
-        "date": "2026-11-27"
+        "percentile": 0.85074,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4093,8 +4230,8 @@
       },
       "epss": {
         "score": 0.02425,
-        "percentile": 0.84946,
-        "date": "2026-11-27"
+        "percentile": 0.84951,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4147,8 +4284,8 @@
       },
       "epss": {
         "score": 0.02341,
-        "percentile": 0.84358,
-        "date": "2026-11-27"
+        "percentile": 0.84364,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4193,8 +4330,8 @@
       },
       "epss": {
         "score": 0.02337,
-        "percentile": 0.8433,
-        "date": "2026-11-27"
+        "percentile": 0.84336,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4207,7 +4344,7 @@
     {
       "id": "CVE-2026-135792",
       "published": "2026-11-24T18:19:03.150",
-      "lastModified": "2026-11-24T18:19:03.310",
+      "lastModified": "2026-11-28T04:17:05.627",
       "vulnStatus": "Deferred",
       "description": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.",
       "cvss": {
@@ -4239,8 +4376,8 @@
       },
       "epss": {
         "score": 0.02337,
-        "percentile": 0.8433,
-        "date": "2026-11-27"
+        "percentile": 0.84336,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4281,8 +4418,8 @@
       },
       "epss": {
         "score": 0.02309,
-        "percentile": 0.84105,
-        "date": "2026-11-27"
+        "percentile": 0.84111,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4321,8 +4458,8 @@
       },
       "epss": {
         "score": 0.02262,
-        "percentile": 0.83705,
-        "date": "2026-11-27"
+        "percentile": 0.8371,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -4363,136 +4500,8 @@
       },
       "epss": {
         "score": 0.02255,
-        "percentile": 0.83656,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-136549",
-      "published": "2026-11-25T06:17:15.597",
-      "lastModified": "2026-11-25T06:17:15.763",
-      "vulnStatus": "Deferred",
-      "description": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injection. The attack can be executed remotely. The exploit has been released to the public and may be used for attacks.",
-      "cvss": {
-        "score": 10.0,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-74",
-          "name": "CWE-74"
-        },
-        {
-          "id": "CWE-77",
-          "name": "Command Injection"
-        }
-      ],
-      "vendors": [
-        "Tenda RX3"
-      ],
-      "references": [
-        "https://github.com/Zeyfrost/tenda-rx3-vulns/blob/master/cmd_injection_remoteIp/detail.md",
-        "https://vuldb.com/cve/CVE-2026-136549",
-        "https://vuldb.com/submit/1057767",
-        "https://vuldb.com/vuln/443407"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02206,
-        "percentile": 0.83292,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2019-25782",
-      "published": "2026-11-18T16:17:48.667",
-      "lastModified": "2026-11-18T18:17:32.423",
-      "vulnStatus": "Received",
-      "description": "ThinkPHP 5.0.0 before 5.0.24 contains a code injection vulnerability that allows unauthenticated attackers to execute commands by setting _method=__construct in POST data to overwrite the Request filter property. Attackers can send POST requests to endpoints reached via ?s=captcha or ?s=index/index/index with filter[]=system and server[REQUEST_METHOD] values to execute arbitrary system commands. Exploitation evidence was first observed by the Shadowserver Foundation on 2023-10-14.",
-      "cvss": {
-        "score": 9.8,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-470",
-          "name": "CWE-470"
-        }
-      ],
-      "vendors": [
-        "TopThink ThinkPHP"
-      ],
-      "references": [
-        "https://github.com/projectdiscovery/nuclei-templates/blob/main/http/vulnerabilities/thinkphp/thinkphp-5023-rce.yaml",
-        "https://github.com/top-think/framework/commit/4a4b5e64fa4c46f851b4004005bff5f3196de003",
-        "https://github.com/vulhub/vulhub/tree/master/thinkphp/5.0.23-rce",
-        "https://packetstorm.news/files/id/157218/"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02195,
-        "percentile": 0.83208,
-        "date": "2026-11-27"
-      },
-      "media": {
-        "in_news": false,
-        "mention_count": 0,
-        "sources": [],
-        "first_seen": null,
-        "last_seen": null
-      }
-    },
-    {
-      "id": "CVE-2026-13594",
-      "published": "2026-11-03T08:17:15.203",
-      "lastModified": "2026-11-04T05:18:42.640",
-      "vulnStatus": "Awaiting Analysis",
-      "description": "Zoho Corporation's ManageEngine Log360 and EventLog Analyzer versions 13062 and below are vulnerable to an issue that could allow an adversary to gain unauthorized access to the product.",
-      "cvss": {
-        "score": 9.1,
-        "version": "3.1",
-        "severity": "CRITICAL"
-      },
-      "cwes": [
-        {
-          "id": "CWE-284",
-          "name": "Improper Access Control"
-        }
-      ],
-      "vendors": [
-        "Zohocorp Log360",
-        "Zohocorp EventLog Analyzer"
-      ],
-      "references": [
-        "https://www.manageengine.com/products/eventlog/advisory/CVE-2026-13594.html"
-      ],
-      "kev": {
-        "in_kev": false
-      },
-      "epss": {
-        "score": 0.02157,
-        "percentile": 0.82877,
-        "date": "2026-11-27"
+        "percentile": 0.83662,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,

@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-27T15:29:41.939479+00:00",
-  "last_fetched": "2026-11-27T15:29:30.190862+00:00",
+  "generated_at": "2026-11-28T14:27:43.268334+00:00",
+  "last_fetched": "2026-11-28T14:27:36.248497+00:00",
   "backfill_pub_cursor": null,
   "months": [
     {
       "key": "2026-11",
-      "count": 6451,
-      "critical": 1048,
-      "high": 5398,
-      "kev": 27,
-      "epss_high": 2,
+      "count": 6512,
+      "critical": 1054,
+      "high": 5453,
+      "kev": 28,
+      "epss_high": 3,
       "media": 38,
-      "latest_published": "2026-11-27T15:17:41.580"
+      "latest_published": "2026-11-28T14:17:49.773"
     },
     {
       "key": "2026-10",
@@ -39,7 +39,7 @@
       "critical": 1659,
       "high": 4948,
       "kev": 21,
-      "epss_high": 0,
+      "epss_high": 1,
       "media": 14,
       "latest_published": "2026-08-31T23:16:35.650"
     },

@@ -33,7 +33,7 @@
       "epss": {
         "score": 0.84968,
         "percentile": 0.99803,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -71,8 +71,8 @@
       },
       "epss": {
         "score": 0.00982,
-        "percentile": 0.61115,
-        "date": "2026-11-27"
+        "percentile": 0.61127,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -126,7 +126,7 @@
       "epss": {
         "score": 0.99778,
         "percentile": 0.99975,
-        "date": "2026-11-27"
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -169,8 +169,8 @@
       },
       "epss": {
         "score": 0.03875,
-        "percentile": 0.90979,
-        "date": "2026-11-27"
+        "percentile": 0.90982,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -181,5 +181,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-27T15:29:38.673122+00:00"
+  "updated_at": "2026-11-28T14:27:38.114324+00:00"
 }

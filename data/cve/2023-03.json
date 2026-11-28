@@ -35,8 +35,8 @@
       },
       "epss": {
         "score": 0.02634,
-        "percentile": 0.86294,
-        "date": "2026-11-27"
+        "percentile": 0.86298,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -84,8 +84,8 @@
       },
       "epss": {
         "score": 0.02613,
-        "percentile": 0.86169,
-        "date": "2026-11-27"
+        "percentile": 0.86173,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -126,8 +126,8 @@
       },
       "epss": {
         "score": 0.00297,
-        "percentile": 0.14736,
-        "date": "2026-11-27"
+        "percentile": 0.14744,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -168,8 +168,8 @@
       },
       "epss": {
         "score": 0.00421,
-        "percentile": 0.28143,
-        "date": "2026-11-27"
+        "percentile": 0.28147,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -214,8 +214,8 @@
       },
       "epss": {
         "score": 0.00387,
-        "percentile": 0.24545,
-        "date": "2026-11-27"
+        "percentile": 0.2455,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -253,8 +253,8 @@
       },
       "epss": {
         "score": 0.00955,
-        "percentile": 0.59983,
-        "date": "2026-11-27"
+        "percentile": 0.59995,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -299,8 +299,8 @@
       },
       "epss": {
         "score": 0.06155,
-        "percentile": 0.94257,
-        "date": "2026-11-27"
+        "percentile": 0.94259,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -341,8 +341,8 @@
       },
       "epss": {
         "score": 0.00308,
-        "percentile": 0.16163,
-        "date": "2026-11-27"
+        "percentile": 0.16173,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -382,8 +382,8 @@
       },
       "epss": {
         "score": 0.00977,
-        "percentile": 0.6097,
-        "date": "2026-11-27"
+        "percentile": 0.60979,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -421,8 +421,8 @@
       },
       "epss": {
         "score": 0.00355,
-        "percentile": 0.21611,
-        "date": "2026-11-27"
+        "percentile": 0.21618,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -471,8 +471,8 @@
       },
       "epss": {
         "score": 0.02196,
-        "percentile": 0.83216,
-        "date": "2026-11-27"
+        "percentile": 0.83222,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -518,8 +518,8 @@
       },
       "epss": {
         "score": 0.01272,
-        "percentile": 0.69924,
-        "date": "2026-11-27"
+        "percentile": 0.69932,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -557,8 +557,8 @@
       },
       "epss": {
         "score": 0.00953,
-        "percentile": 0.59926,
-        "date": "2026-11-27"
+        "percentile": 0.59938,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -600,8 +600,8 @@
       },
       "epss": {
         "score": 0.00305,
-        "percentile": 0.15815,
-        "date": "2026-11-27"
+        "percentile": 0.15819,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -639,8 +639,8 @@
       },
       "epss": {
         "score": 0.00313,
-        "percentile": 0.1674,
-        "date": "2026-11-27"
+        "percentile": 0.16755,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -682,8 +682,8 @@
       },
       "epss": {
         "score": 0.00313,
-        "percentile": 0.16742,
-        "date": "2026-11-27"
+        "percentile": 0.16755,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -725,8 +725,8 @@
       },
       "epss": {
         "score": 0.00313,
-        "percentile": 0.16742,
-        "date": "2026-11-27"
+        "percentile": 0.16755,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -764,8 +764,8 @@
       },
       "epss": {
         "score": 0.00313,
-        "percentile": 0.16744,
-        "date": "2026-11-27"
+        "percentile": 0.16755,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -803,8 +803,8 @@
       },
       "epss": {
         "score": 0.00313,
-        "percentile": 0.16743,
-        "date": "2026-11-27"
+        "percentile": 0.16754,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -842,8 +842,8 @@
       },
       "epss": {
         "score": 0.00305,
-        "percentile": 0.15808,
-        "date": "2026-11-27"
+        "percentile": 0.1582,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -881,8 +881,8 @@
       },
       "epss": {
         "score": 0.00748,
-        "percentile": 0.51105,
-        "date": "2026-11-27"
+        "percentile": 0.51112,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -920,8 +920,8 @@
       },
       "epss": {
         "score": 0.00571,
-        "percentile": 0.41155,
-        "date": "2026-11-27"
+        "percentile": 0.41161,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -967,8 +967,8 @@
       },
       "epss": {
         "score": 0.00648,
-        "percentile": 0.45741,
-        "date": "2026-11-27"
+        "percentile": 0.45749,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1005,8 +1005,8 @@
       },
       "epss": {
         "score": 0.00969,
-        "percentile": 0.60593,
-        "date": "2026-11-27"
+        "percentile": 0.60603,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1044,8 +1044,8 @@
       },
       "epss": {
         "score": 0.00882,
-        "percentile": 0.56983,
-        "date": "2026-11-27"
+        "percentile": 0.56996,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1084,8 +1084,8 @@
       },
       "epss": {
         "score": 0.06227,
-        "percentile": 0.94325,
-        "date": "2026-11-27"
+        "percentile": 0.94326,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1124,8 +1124,8 @@
       },
       "epss": {
         "score": 0.00754,
-        "percentile": 0.51362,
-        "date": "2026-11-27"
+        "percentile": 0.51371,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1170,8 +1170,8 @@
       },
       "epss": {
         "score": 0.01853,
-        "percentile": 0.79698,
-        "date": "2026-11-27"
+        "percentile": 0.79703,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1214,8 +1214,8 @@
       },
       "epss": {
         "score": 0.00304,
-        "percentile": 0.15637,
-        "date": "2026-11-27"
+        "percentile": 0.15647,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1254,8 +1254,8 @@
       },
       "epss": {
         "score": 0.00846,
-        "percentile": 0.55474,
-        "date": "2026-11-27"
+        "percentile": 0.55497,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1298,8 +1298,8 @@
       },
       "epss": {
         "score": 0.01378,
-        "percentile": 0.72273,
-        "date": "2026-11-27"
+        "percentile": 0.7228,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1346,8 +1346,8 @@
       },
       "epss": {
         "score": 0.00814,
-        "percentile": 0.5401,
-        "date": "2026-11-27"
+        "percentile": 0.5402,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1385,8 +1385,8 @@
       },
       "epss": {
         "score": 0.00799,
-        "percentile": 0.53278,
-        "date": "2026-11-27"
+        "percentile": 0.53286,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1428,8 +1428,8 @@
       },
       "epss": {
         "score": 0.04606,
-        "percentile": 0.92448,
-        "date": "2026-11-27"
+        "percentile": 0.9245,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1468,8 +1468,8 @@
       },
       "epss": {
         "score": 0.00344,
-        "percentile": 0.20358,
-        "date": "2026-11-27"
+        "percentile": 0.20369,
+        "date": "2026-11-28"
       },
       "media": {
         "in_news": false,
@@ -1480,5 +1480,5 @@
       }
     }
   ],
-  "updated_at": "2026-11-27T15:29:32.482315+00:00"
+  "updated_at": "2026-11-28T14:27:38.128211+00:00"
 }
